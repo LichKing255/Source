@@ -17,7 +17,7 @@ import java.util.TimeZone;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 import org.telegram.messenger.ApplicationLoader;
-import org.telegram.ui.Mihangram.SolarCalendar;
+import org.telegram.ui.Supergram.SolarCalendar;
 
 public class FastDatePrinter
   implements DatePrinter, Serializable

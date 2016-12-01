@@ -4,8 +4,8 @@ public final class Manifest
 {
   public static final class permission
   {
-    public static final String C2D_MESSAGE = "com.mihan.mihangram.permission.C2D_MESSAGE";
-    public static final String MAPS_RECEIVE = "com.mihan.mihangram.permission.MAPS_RECEIVE";
+    public static final String C2D_MESSAGE = "com.baranak.tsupergram.permission.C2D_MESSAGE";
+    public static final String MAPS_RECEIVE = "com.baranak.tsupergram.permission.MAPS_RECEIVE";
   }
 }
 

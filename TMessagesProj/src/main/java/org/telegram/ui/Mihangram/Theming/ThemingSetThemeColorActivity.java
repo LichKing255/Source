@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.Theming;
+package org.telegram.ui.Supergram.Theming;
 
 import android.app.Activity;
 import android.content.Context;
@@ -30,8 +30,8 @@ import org.telegram.ui.Cells.ShadowSectionCell;
 import org.telegram.ui.Cells.TextColorCell;
 import org.telegram.ui.Components.ColorPickerView;
 import org.telegram.ui.Components.LayoutHelper;
-import org.telegram.ui.Mihangram.Theming.ColorPicker.ColorSelectorDialog;
-import org.telegram.ui.Mihangram.Theming.ColorPicker.ColorSelectorDialog.OnColorChangedListener;
+import org.telegram.ui.Supergram.Theming.ColorPicker.ColorSelectorDialog;
+import org.telegram.ui.Supergram.Theming.ColorPicker.ColorSelectorDialog.OnColorChangedListener;
 
 public class ThemingSetThemeColorActivity
   extends BaseFragment
@@ -211,7 +211,7 @@ public class ThemingSetThemeColorActivity
     localObject3 = newColorButton(paramContext, "Telegram", -11371101);
     ((LinearLayout)localObject2).addView((View)localObject3);
     setCenterButtonLayout((View)localObject3);
-    localObject3 = newColorButton(paramContext, "Mihangram", -16744769);
+    localObject3 = newColorButton(paramContext, "Supergram", -16744769);
     ((LinearLayout)localObject2).addView((View)localObject3);
     setRightButtonLayout((View)localObject3);
     localObject2 = newRow(paramContext, (LinearLayout)localObject1);
@@ -414,7 +414,7 @@ public class ThemingSetThemeColorActivity
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\Theming\ThemingSetThemeColorActivity.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\Theming\ThemingSetThemeColorActivity.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

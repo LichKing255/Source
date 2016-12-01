@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.DownloadManager.sundatepicker;
+package org.telegram.ui.Supergram.DownloadManager.sundatepicker;
 
 import android.app.Dialog;
 import android.content.res.Resources;
@@ -20,11 +20,11 @@ import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import java.util.Calendar;
-import org.telegram.ui.Mihangram.DownloadManager.sundatepicker.month.MonthMainFragement;
-import org.telegram.ui.Mihangram.DownloadManager.sundatepicker.tool.Date;
-import org.telegram.ui.Mihangram.DownloadManager.sundatepicker.tool.JDF;
-import org.telegram.ui.Mihangram.DownloadManager.sundatepicker.tool.Util;
-import org.telegram.ui.Mihangram.DownloadManager.sundatepicker.year.YearMainFragement;
+import org.telegram.ui.Supergram.DownloadManager.sundatepicker.month.MonthMainFragement;
+import org.telegram.ui.Supergram.DownloadManager.sundatepicker.tool.Date;
+import org.telegram.ui.Supergram.DownloadManager.sundatepicker.tool.JDF;
+import org.telegram.ui.Supergram.DownloadManager.sundatepicker.tool.Util;
+import org.telegram.ui.Supergram.DownloadManager.sundatepicker.year.YearMainFragement;
 
 public class DatePickerDialog
   extends DialogFragment
@@ -302,7 +302,7 @@ public class DatePickerDialog
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\DownloadManager\sundatepicker\DatePickerDialog.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\DownloadManager\sundatepicker\DatePickerDialog.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

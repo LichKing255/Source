@@ -154,8 +154,8 @@
     <string name="AndOther_other">and %1$d others</string>
     <string name="AndOther_two">and %1$d others</string>
     <string name="AndOther_zero">and %1$d others</string>
-    <string name="AppName">Mihangram</string>
-    <string name="AppNameBeta">Mihangram Beta</string>
+    <string name="AppName">Supergram</string>
+    <string name="AppNameBeta">Supergram Beta</string>
     <string name="ApplyLocalizationFile">Apply localization file</string>
     <string name="AreTyping">are typing...</string>
     <string name="AreYouSure">Are you sure?</string>
@@ -657,7 +657,7 @@ about Telegram?"</string>
     <string name="Hours_zero">%1$d hours</string>
     <string name="Hybrid">Hybrid</string>
     <string name="IdFinder">Id Finder</string>
-    <string name="IdFinderDescription">"Find people, channels and bots with Mihangram Id Finder easily.
+    <string name="IdFinderDescription">"Find people, channels and bots with Supergram Id Finder easily.
 
 Ender usernameand if it's available (green color) tap on tick icon on action bar.
 
@@ -1005,7 +1005,7 @@ The Telegram Team"</string>
     <string name="OtherSessions">Active Sessions</string>
     <string name="PM">PM</string>
     <string name="Page1Message">"The world's &lt;b>fastest&lt;/b> messaging app.&lt;br/>It is &lt;b>free&lt;/b> and &lt;b>secure&lt;/b>."</string>
-    <string name="Page1Title">Mihangram</string>
+    <string name="Page1Title">Supergram</string>
     <string name="Page2Message">&lt;b>Telegram&lt;/b> delivers messages faster than&lt;br/>any other application.</string>
     <string name="Page2Title">Fast</string>
     <string name="Page3Message">&lt;b>Telegram&lt;/b> is free forever. No ads.&lt;br/>No subscription fees.</string>
@@ -1031,12 +1031,12 @@ The Telegram Team"</string>
     <string name="PasswordRecovery">Password Recovery</string>
     <string name="PasswordReset">Password deactivated</string>
     <string name="PendingEmailText">Your recovery e-mail %1$s is not yet active and pending confirmation.</string>
-    <string name="PermissionContacts">Mihangram needs access to your contacts so that you can connect with your friends across all your devices.</string>
-    <string name="PermissionNoAudio">Mihangram needs access to your microphone so that you can send voice messages.</string>
-    <string name="PermissionNoLocation">Mihangram needs access to your location so that you can share it with your friends.</string>
-    <string name="PermissionNoLocationPosition">Mihangram needs access to your location.</string>
+    <string name="PermissionContacts">Supergram needs access to your contacts so that you can connect with your friends across all your devices.</string>
+    <string name="PermissionNoAudio">Supergram needs access to your microphone so that you can send voice messages.</string>
+    <string name="PermissionNoLocation">Supergram needs access to your location so that you can share it with your friends.</string>
+    <string name="PermissionNoLocationPosition">Supergram needs access to your location.</string>
     <string name="PermissionOpenSettings">SETTINGS</string>
-    <string name="PermissionStorage">Mihangram needs access to your storage so that you can send and save photos, videos, music and other media.</string>
+    <string name="PermissionStorage">Supergram needs access to your storage so that you can send and save photos, videos, music and other media.</string>
     <string name="Phone">Phone</string>
     <string name="PhoneHome">Home</string>
     <string name="PhoneMain">Main</string>
@@ -1268,8 +1268,8 @@ Users can add stickers by tapping on them and choosing \"Add to Stickers\"."</st
     <string name="TabletModeDescription">If you enable this option, App user interface will be show different in tablets</string>
     <string name="TabsSettings">Tabs Settings</string>
     <string name="TapHereGifs">Tap here to access saved GIFs</string>
-    <string name="TelegramFaq">Mihangram - New Version</string>
-    <string name="TelegramFaqUrl">https://telegram.me/mihangram</string>
+    <string name="TelegramFaq">Supergram - New Version</string>
+    <string name="TelegramFaqUrl">https://telegram.me/Supergram</string>
     <string name="TerminateAllSessions">Terminate All Other Sessions</string>
     <string name="TerminateSessionInfo">Tap on a session to terminate.</string>
     <string name="TerminateSessionQuestion">Terminate this session?</string>
@@ -1502,7 +1502,7 @@ Your contact must have telegram account for adding to contacts list."</string>
     <string name="ChatBarDisabled">Disabled</string>
     <string name="ChatBarOlwaysClose">Always close</string>
     <string name="ChatBarOlwaysOpen">Always open</string>
-    <string name="CheckMainPackageInstalled">To use the secound version of Mihangram you have to install the main version.</string>
+    <string name="CheckMainPackageInstalled">To use the secound version of Supergram you have to install the main version.</string>
     <string name="ContactsChanges">Contacts Changes</string>
     <string name="DeleteFromSpecifics">Delete from specific contacts</string>
     <string name="DisableTab">Disable tab</string>
@@ -1512,7 +1512,7 @@ Your contact must have telegram account for adding to contacts list."</string>
 
 توجه: در اکثر مواقع تنها با عضویت در کافه بازار این پیغام دیگر نمایش داده نخواهد شد."</string>
     <string name="DownloadManager">DownloadManager</string>
-    <string name="DownloadMihangram">دانلود غیرمستقیم</string>
+    <string name="DownloadSupergram">دانلود غیرمستقیم</string>
     <string name="Draft">Draft</string>
     <string name="EnableSCServiceDes">Also notify when app is closed</string>
     <string name="EnableSpecialContacts">Enable Specific contacts</string>
@@ -1683,7 +1683,7 @@ Are you sure you want to continue?"</string>
     <string name="ThemingThemeLoaded">Theme loaded</string>
     <string name="ThemingThemeName">Theme name</string>
     <string name="ThemingThemeResetDes">Undo all theme settings</string>
-    <string name="ThemingThemeSaveDes">Save theme to Mihangram/Theme folder</string>
+    <string name="ThemingThemeSaveDes">Save theme to Supergram/Theme folder</string>
     <string name="ThemingThemeSaved">Theme saved</string>
     <string name="ThemingThemes">Themes</string>
     <string name="ThemingTikColor">Message ticks color</string>

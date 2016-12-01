@@ -99,13 +99,13 @@ import org.telegram.ui.Adapters.DrawerLayoutAdapter;
 import org.telegram.ui.Components.PasscodeView;
 import org.telegram.ui.Components.PasscodeView.PasscodeViewDelegate;
 import org.telegram.ui.Components.StickersAlert;
-import org.telegram.ui.Mihangram.DownloadManager.Download;
-import org.telegram.ui.Mihangram.IdFinderActivity;
-import org.telegram.ui.Mihangram.MihanAuthenticaion;
-import org.telegram.ui.Mihangram.MihanSettingsActivity;
-import org.telegram.ui.Mihangram.OnlineContactsActivity;
-import org.telegram.ui.Mihangram.SpecialContacts.SpecialContactsActivity;
-import org.telegram.ui.Mihangram.UserChanges.UpdateActivity;
+import org.telegram.ui.Supergram.DownloadManager.Download;
+import org.telegram.ui.Supergram.IdFinderActivity;
+import org.telegram.ui.Supergram.MihanAuthenticaion;
+import org.telegram.ui.Supergram.MihanSettingsActivity;
+import org.telegram.ui.Supergram.OnlineContactsActivity;
+import org.telegram.ui.Supergram.SpecialContacts.SpecialContactsActivity;
+import org.telegram.ui.Supergram.UserChanges.UpdateActivity;
 
 public class LaunchActivity
   extends Activity

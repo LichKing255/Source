@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.DownloadManager;
+package org.telegram.ui.Supergram.DownloadManager;
 
 import android.content.Context;
 import android.content.Intent;
@@ -27,11 +27,11 @@ import org.telegram.ui.ActionBar.ActionBar;
 import org.telegram.ui.ActionBar.ActionBar.ActionBarMenuOnItemClick;
 import org.telegram.ui.ActionBar.BaseFragment;
 import org.telegram.ui.Components.LayoutHelper;
-import org.telegram.ui.Mihangram.DownloadManager.Adapter.RVAdapter;
-import org.telegram.ui.Mihangram.DownloadManager.Adapter.RVAdapter.OnCheckedChangeListener;
-import org.telegram.ui.Mihangram.DownloadManager.Adapter.RVAdapter.OnItemClickListener;
-import org.telegram.ui.Mihangram.DownloadManager.SQLite.ElementDownload;
-import org.telegram.ui.Mihangram.DownloadManager.SQLite.SQLDownload;
+import org.telegram.ui.Supergram.DownloadManager.Adapter.RVAdapter;
+import org.telegram.ui.Supergram.DownloadManager.Adapter.RVAdapter.OnCheckedChangeListener;
+import org.telegram.ui.Supergram.DownloadManager.Adapter.RVAdapter.OnItemClickListener;
+import org.telegram.ui.Supergram.DownloadManager.SQLite.ElementDownload;
+import org.telegram.ui.Supergram.DownloadManager.SQLite.SQLDownload;
 
 public class DownloadManagerActivity
   extends BaseFragment
@@ -396,7 +396,7 @@ public class DownloadManagerActivity
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\DownloadManager\DownloadManagerActivity.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\DownloadManager\DownloadManagerActivity.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

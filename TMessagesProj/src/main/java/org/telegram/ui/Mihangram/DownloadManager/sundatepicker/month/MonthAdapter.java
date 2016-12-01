@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.DownloadManager.sundatepicker.month;
+package org.telegram.ui.Supergram.DownloadManager.sundatepicker.month;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -10,10 +10,10 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 import java.text.ParseException;
-import org.telegram.ui.Mihangram.DownloadManager.sundatepicker.DatePickerDialog;
-import org.telegram.ui.Mihangram.DownloadManager.sundatepicker.tool.Date;
-import org.telegram.ui.Mihangram.DownloadManager.sundatepicker.tool.JDF;
-import org.telegram.ui.Mihangram.DownloadManager.sundatepicker.tool.Util;
+import org.telegram.ui.Supergram.DownloadManager.sundatepicker.DatePickerDialog;
+import org.telegram.ui.Supergram.DownloadManager.sundatepicker.tool.Date;
+import org.telegram.ui.Supergram.DownloadManager.sundatepicker.tool.JDF;
+import org.telegram.ui.Supergram.DownloadManager.sundatepicker.tool.Util;
 
 public class MonthAdapter
   extends BaseAdapter
@@ -122,7 +122,7 @@ public class MonthAdapter
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\DownloadManager\sundatepicker\month\MonthAdapter.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\DownloadManager\sundatepicker\month\MonthAdapter.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

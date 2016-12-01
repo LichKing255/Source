@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.UserChanges.mobo;
+package org.telegram.ui.Supergram.UserChanges.mobo;
 
 import android.content.Context;
 import android.content.Intent;
@@ -16,7 +16,7 @@ import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.Random;
-import org.telegram.ui.Mihangram.SolarCalendar;
+import org.telegram.ui.Supergram.SolarCalendar;
 
 public class bd
 {
@@ -105,7 +105,7 @@ public class bd
     //   10: new 105	java/lang/StringBuilder
     //   13: dup
     //   14: invokespecial 117	java/lang/StringBuilder:<init>	()V
-    //   17: invokestatic 142	org/telegram/ui/Mihangram/UserChanges/mobo/bd:c	()Ljava/io/File;
+    //   17: invokestatic 142	org/telegram/ui/Supergram/UserChanges/mobo/bd:c	()Ljava/io/File;
     //   20: invokevirtual 145	java/lang/StringBuilder:append	(Ljava/lang/Object;)Ljava/lang/StringBuilder;
     //   23: getstatic 149	java/io/File:separator	Ljava/lang/String;
     //   26: invokevirtual 123	java/lang/StringBuilder:append	(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -309,7 +309,7 @@ public class bd
     //   0: aload_0
     //   1: invokevirtual 34	android/content/Context:getPackageManager	()Landroid/content/pm/PackageManager;
     //   4: astore_0
-    //   5: invokestatic 254	org/telegram/ui/Mihangram/UserChanges/mobo/bd:d	()Ljava/lang/String;
+    //   5: invokestatic 254	org/telegram/ui/Supergram/UserChanges/mobo/bd:d	()Ljava/lang/String;
     //   8: astore_1
     //   9: aload_0
     //   10: aload_1
@@ -338,7 +338,7 @@ public class bd
     //   56: aload_0
     //   57: invokevirtual 318	java/security/cert/X509Certificate:getEncoded	()[B
     //   60: invokevirtual 322	java/security/MessageDigest:digest	([B)[B
-    //   63: invokestatic 324	org/telegram/ui/Mihangram/UserChanges/mobo/bd:a	([B)Ljava/lang/String;
+    //   63: invokestatic 324	org/telegram/ui/Supergram/UserChanges/mobo/bd:a	([B)Ljava/lang/String;
     //   66: astore_0
     //   67: aload_0
     //   68: areturn
@@ -374,7 +374,7 @@ public class bd
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\UserChanges\mobo\bd.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\UserChanges\mobo\bd.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

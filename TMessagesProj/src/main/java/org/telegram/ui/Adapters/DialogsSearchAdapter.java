@@ -61,7 +61,7 @@ import org.telegram.ui.Cells.ProfileSearchCell;
 import org.telegram.ui.Components.RecyclerListView;
 import org.telegram.ui.Components.RecyclerListView.OnItemClickListener;
 import org.telegram.ui.Components.RecyclerListView.OnItemLongClickListener;
-import org.telegram.ui.Mihangram.Theming.MihanTheme;
+import org.telegram.ui.Supergram.Theming.MihanTheme;
 
 public class DialogsSearchAdapter
   extends BaseSearchAdapterRecycler

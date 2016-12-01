@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.DownloadManager;
+package org.telegram.ui.Supergram.DownloadManager;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -27,12 +27,12 @@ import org.telegram.tgnet.TLRPC.PhotoSize;
 import org.telegram.tgnet.TLRPC.TL_document;
 import org.telegram.tgnet.TLRPC.TL_documentAttributeFilename;
 import org.telegram.tgnet.TLRPC.TL_documentAttributeVideo;
-import org.telegram.ui.Mihangram.DownloadManager.Adapter.RVAdapter;
-import org.telegram.ui.Mihangram.DownloadManager.Adapter.RVAdapter.OnCheckedChangeListener;
-import org.telegram.ui.Mihangram.DownloadManager.Adapter.RVAdapter.OnItemClickListener;
-import org.telegram.ui.Mihangram.DownloadManager.SQLite.ElementDownload;
-import org.telegram.ui.Mihangram.DownloadManager.SQLite.SQLDownload;
-import org.telegram.ui.Mihangram.Theming.MihanTheme;
+import org.telegram.ui.Supergram.DownloadManager.Adapter.RVAdapter;
+import org.telegram.ui.Supergram.DownloadManager.Adapter.RVAdapter.OnCheckedChangeListener;
+import org.telegram.ui.Supergram.DownloadManager.Adapter.RVAdapter.OnItemClickListener;
+import org.telegram.ui.Supergram.DownloadManager.SQLite.ElementDownload;
+import org.telegram.ui.Supergram.DownloadManager.SQLite.SQLDownload;
+import org.telegram.ui.Supergram.Theming.MihanTheme;
 
 public class Download
   extends AppCompatActivity
@@ -506,7 +506,7 @@ public class Download
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\DownloadManager\Download.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\DownloadManager\Download.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

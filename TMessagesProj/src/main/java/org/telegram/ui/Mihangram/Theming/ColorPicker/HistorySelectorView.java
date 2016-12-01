@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.Theming.ColorPicker;
+package org.telegram.ui.Supergram.Theming.ColorPicker;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -209,7 +209,7 @@ public class HistorySelectorView
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\Theming\ColorPicker\HistorySelectorView.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\Theming\ColorPicker\HistorySelectorView.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

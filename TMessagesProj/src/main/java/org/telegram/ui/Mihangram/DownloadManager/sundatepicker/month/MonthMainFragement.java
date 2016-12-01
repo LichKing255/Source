@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.DownloadManager.sundatepicker.month;
+package org.telegram.ui.Supergram.DownloadManager.sundatepicker.month;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -8,8 +8,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import org.telegram.ui.Mihangram.DownloadManager.sundatepicker.DatePickerDialog;
-import org.telegram.ui.Mihangram.DownloadManager.sundatepicker.tool.Date;
+import org.telegram.ui.Supergram.DownloadManager.sundatepicker.DatePickerDialog;
+import org.telegram.ui.Supergram.DownloadManager.sundatepicker.tool.Date;
 
 public class MonthMainFragement
   extends Fragment
@@ -58,7 +58,7 @@ public class MonthMainFragement
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\DownloadManager\sundatepicker\month\MonthMainFragement.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\DownloadManager\sundatepicker\month\MonthMainFragement.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

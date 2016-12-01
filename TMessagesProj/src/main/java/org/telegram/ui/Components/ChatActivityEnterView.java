@@ -113,8 +113,8 @@ import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.ChatActivity;
 import org.telegram.ui.DialogsActivity;
 import org.telegram.ui.DialogsActivity.DialogsActivityDelegate;
-import org.telegram.ui.Mihangram.Painting.PaintActivity;
-import org.telegram.ui.Mihangram.Theming.MihanTheme;
+import org.telegram.ui.Supergram.Painting.PaintActivity;
+import org.telegram.ui.Supergram.Theming.MihanTheme;
 import org.telegram.ui.StickersActivity;
 
 public class ChatActivityEnterView

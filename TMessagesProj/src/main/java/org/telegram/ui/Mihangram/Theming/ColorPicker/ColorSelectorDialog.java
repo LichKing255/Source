@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.Theming.ColorPicker;
+package org.telegram.ui.Supergram.Theming.ColorPicker;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -11,7 +11,7 @@ import android.view.Window;
 import android.widget.Button;
 import java.io.PrintStream;
 import org.telegram.ui.Components.ColorPickerView.OnColorChangedListener;
-import org.telegram.ui.Mihangram.Theming.MihanTheme;
+import org.telegram.ui.Supergram.Theming.MihanTheme;
 
 public class ColorSelectorDialog
   extends Dialog
@@ -175,7 +175,7 @@ public class ColorSelectorDialog
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\Theming\ColorPicker\ColorSelectorDialog.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\Theming\ColorPicker\ColorSelectorDialog.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

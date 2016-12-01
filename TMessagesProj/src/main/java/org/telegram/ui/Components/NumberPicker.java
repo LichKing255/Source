@@ -22,7 +22,7 @@ import android.widget.LinearLayout;
 import android.widget.LinearLayout.LayoutParams;
 import android.widget.TextView;
 import java.util.Locale;
-import org.telegram.ui.Mihangram.Theming.MihanTheme;
+import org.telegram.ui.Supergram.Theming.MihanTheme;
 
 public class NumberPicker
   extends LinearLayout

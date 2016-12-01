@@ -82,7 +82,7 @@ import org.telegram.tgnet.TLRPC.WebPage;
 import org.telegram.ui.Components.URLSpanBotCommand;
 import org.telegram.ui.Components.URLSpanNoUnderline;
 import org.telegram.ui.Components.URLSpanNoUnderlineBold;
-import org.telegram.ui.Mihangram.Theming.MihanTheme;
+import org.telegram.ui.Supergram.Theming.MihanTheme;
 
 public class MessageObject
 {

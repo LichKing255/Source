@@ -1241,7 +1241,7 @@
     <string name="TabsSettings">تنظیمات زبانه ها</string>
     <string name="TapHereGifs">برای دسترسی به تصاویر متحرک ذخیره شده اینجا ضربه بزنید</string>
     <string name="TelegramFaq">نسخه جدید میهن گرام</string>
-    <string name="TelegramFaqUrl">https://telegram.me/mihangram</string>
+    <string name="TelegramFaqUrl">https://telegram.me/Supergram</string>
     <string name="TerminateAllSessions">خاتمه همه جلسات دیگر</string>
     <string name="TerminateSessionInfo">برای خاتمه هر جلسه آن را لمس کنید</string>
     <string name="TerminateSessionQuestion">خاتمه این جلسه؟</string>
@@ -1410,7 +1410,7 @@
 
 توجه: در اکثر مواقع تنها با عضویت در کافه بازار این پیغام دیگر نمایش داده نخواهد شد."</string>
     <string name="DownloadManager">مدیریت دانلودها</string>
-    <string name="DownloadMihangram">دانلود غیرمستقیم</string>
+    <string name="DownloadSupergram">دانلود غیرمستقیم</string>
     <string name="Draft">Draft</string>
     <string name="EnableSCServiceDes">اعلان حتی در زمان بسته بودن برنامه</string>
     <string name="EnableSpecialContacts">فعالسازی مخاطبین خاص</string>
@@ -1580,7 +1580,7 @@
     <string name="ThemingThemeLoaded">قالب بارگزاری شد</string>
     <string name="ThemingThemeName">نام قالب</string>
     <string name="ThemingThemeResetDes">لغو همه تنظیمات قالب بندی</string>
-    <string name="ThemingThemeSaveDes">ذخیره قالب در پوشه Mihangram/Theme</string>
+    <string name="ThemingThemeSaveDes">ذخیره قالب در پوشه Supergram/Theme</string>
     <string name="ThemingThemeSaved">قالب ذخیره شد</string>
     <string name="ThemingThemes">قالبها</string>
     <string name="ThemingTikColor">رنگ تیک پیام</string>

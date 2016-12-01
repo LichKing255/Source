@@ -18,7 +18,7 @@ import android.os.Build.VERSION;
 import java.lang.reflect.Array;
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ApplicationLoader;
-import org.telegram.ui.Mihangram.Theming.MihanTheme;
+import org.telegram.ui.Supergram.Theming.MihanTheme;
 
 public class Theme
 {

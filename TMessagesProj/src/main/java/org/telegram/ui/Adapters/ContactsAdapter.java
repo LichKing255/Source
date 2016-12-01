@@ -19,7 +19,7 @@ import org.telegram.ui.Cells.GreySectionCell;
 import org.telegram.ui.Cells.LetterSectionCell;
 import org.telegram.ui.Cells.TextCell;
 import org.telegram.ui.Cells.UserCell;
-import org.telegram.ui.Mihangram.Theming.MihanTheme;
+import org.telegram.ui.Supergram.Theming.MihanTheme;
 
 public class ContactsAdapter
   extends BaseSectionsAdapter

@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram;
+package org.telegram.ui.Supergram;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
@@ -118,7 +118,7 @@ import org.telegram.ui.Components.ShareAlert;
 import org.telegram.ui.Components.WebFrameLayout;
 import org.telegram.ui.DialogsActivity;
 import org.telegram.ui.DialogsActivity.DialogsActivityDelegate;
-import org.telegram.ui.Mihangram.Theming.MihanTheme;
+import org.telegram.ui.Supergram.Theming.MihanTheme;
 import org.telegram.ui.PhotoViewer;
 import org.telegram.ui.PhotoViewer.PhotoViewerProvider;
 import org.telegram.ui.PhotoViewer.PlaceProviderObject;
@@ -3222,7 +3222,7 @@ public class MihanMediaActivity
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\MihanMediaActivity.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\MihanMediaActivity.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

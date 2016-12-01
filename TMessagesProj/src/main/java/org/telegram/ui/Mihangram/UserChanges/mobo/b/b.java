@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.UserChanges.mobo.b;
+package org.telegram.ui.Supergram.UserChanges.mobo.b;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -8,7 +8,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteDatabase.CursorFactory;
 import android.database.sqlite.SQLiteOpenHelper;
 import org.telegram.messenger.ApplicationLoader;
-import org.telegram.ui.Mihangram.UserChanges.mobo.bd;
+import org.telegram.ui.Supergram.UserChanges.mobo.bd;
 
 public class b
   extends SQLiteOpenHelper
@@ -208,7 +208,7 @@ public class b
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\UserChanges\mobo\b\b.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\UserChanges\mobo\b\b.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

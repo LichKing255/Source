@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.DownloadManager.SQLite;
+package org.telegram.ui.Supergram.DownloadManager.SQLite;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -400,7 +400,7 @@ public class SQLDownload
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\DownloadManager\SQLite\SQLDownload.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\DownloadManager\SQLite\SQLDownload.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

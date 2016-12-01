@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.Theming.Fonts;
+package org.telegram.ui.Supergram.Theming.Fonts;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -238,7 +238,7 @@ public class FontSettingsCell
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\Theming\Fonts\FontSettingsCell.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\Theming\Fonts\FontSettingsCell.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

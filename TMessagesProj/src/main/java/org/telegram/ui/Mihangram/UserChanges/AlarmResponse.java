@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.UserChanges;
+package org.telegram.ui.Supergram.UserChanges;
 
 public class AlarmResponse
 {
@@ -189,7 +189,7 @@ public class AlarmResponse
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\UserChanges\AlarmResponse.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\UserChanges\AlarmResponse.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

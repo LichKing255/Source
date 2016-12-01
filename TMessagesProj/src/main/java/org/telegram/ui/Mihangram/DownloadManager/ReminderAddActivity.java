@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.DownloadManager;
+package org.telegram.ui.Supergram.DownloadManager;
 
 import android.app.AlertDialog.Builder;
 import android.content.Context;
@@ -30,11 +30,11 @@ import java.util.Calendar;
 import java.util.Locale;
 import org.telegram.messenger.ApplicationLoader;
 import org.telegram.messenger.LocaleController;
-import org.telegram.ui.Mihangram.DownloadManager.Receiver.DownloadReceiver;
-import org.telegram.ui.Mihangram.DownloadManager.sundatepicker.DatePickerDialog;
-import org.telegram.ui.Mihangram.DownloadManager.sundatepicker.DatePickerDialog.OnDateSetListener;
-import org.telegram.ui.Mihangram.DownloadManager.sundatepicker.tool.JDF;
-import org.telegram.ui.Mihangram.Theming.MihanTheme;
+import org.telegram.ui.Supergram.DownloadManager.Receiver.DownloadReceiver;
+import org.telegram.ui.Supergram.DownloadManager.sundatepicker.DatePickerDialog;
+import org.telegram.ui.Supergram.DownloadManager.sundatepicker.DatePickerDialog.OnDateSetListener;
+import org.telegram.ui.Supergram.DownloadManager.sundatepicker.tool.JDF;
+import org.telegram.ui.Supergram.Theming.MihanTheme;
 
 public class ReminderAddActivity
   extends AppCompatActivity
@@ -482,7 +482,7 @@ public class ReminderAddActivity
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\DownloadManager\ReminderAddActivity.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\DownloadManager\ReminderAddActivity.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

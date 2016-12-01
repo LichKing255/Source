@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.UserChanges;
+package org.telegram.ui.Supergram.UserChanges;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -23,8 +23,8 @@ import org.telegram.ui.Components.AvatarDrawable;
 import org.telegram.ui.Components.BackupImageView;
 import org.telegram.ui.Components.CheckBox;
 import org.telegram.ui.Components.LayoutHelper;
-import org.telegram.ui.Mihangram.Theming.MihanTheme;
-import org.telegram.ui.Mihangram.UserChanges.mobo.bd;
+import org.telegram.ui.Supergram.Theming.MihanTheme;
+import org.telegram.ui.Supergram.UserChanges.mobo.bd;
 
 public class UpdateCell
   extends FrameLayout
@@ -390,7 +390,7 @@ public class UpdateCell
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\UserChanges\UpdateCell.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\UserChanges\UpdateCell.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

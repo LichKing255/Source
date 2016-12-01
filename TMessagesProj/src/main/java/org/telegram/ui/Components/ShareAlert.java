@@ -82,8 +82,8 @@ import org.telegram.tgnet.TLRPC.User;
 import org.telegram.ui.ActionBar.BottomSheet;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Cells.ShareDialogCell;
-import org.telegram.ui.Mihangram.DialogsLoaderShareAlert;
-import org.telegram.ui.Mihangram.Theming.MihanTheme;
+import org.telegram.ui.Supergram.DialogsLoaderShareAlert;
+import org.telegram.ui.Supergram.Theming.MihanTheme;
 
 public class ShareAlert
   extends BottomSheet

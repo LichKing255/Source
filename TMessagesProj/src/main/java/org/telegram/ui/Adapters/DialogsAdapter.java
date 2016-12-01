@@ -12,7 +12,7 @@ import org.telegram.messenger.support.widget.RecyclerView.ViewHolder;
 import org.telegram.tgnet.TLRPC.TL_dialog;
 import org.telegram.ui.Cells.DialogCell;
 import org.telegram.ui.Cells.LoadingCell;
-import org.telegram.ui.Mihangram.DialogsLoader;
+import org.telegram.ui.Supergram.DialogsLoader;
 
 public class DialogsAdapter
   extends RecyclerView.Adapter

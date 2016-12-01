@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.BatchWorks;
+package org.telegram.ui.Supergram.BatchWorks;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -56,8 +56,8 @@ import org.telegram.tgnet.TLRPC.UserProfilePhoto;
 import org.telegram.tgnet.TLRPC.UserStatus;
 import org.telegram.ui.Cells.BaseCell;
 import org.telegram.ui.Components.AvatarDrawable;
-import org.telegram.ui.Mihangram.DialogsLoader;
-import org.telegram.ui.Mihangram.Theming.MihanTheme;
+import org.telegram.ui.Supergram.DialogsLoader;
+import org.telegram.ui.Supergram.Theming.MihanTheme;
 
 public class BatchDialogCell
   extends BaseCell
@@ -1528,7 +1528,7 @@ public class BatchDialogCell
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\BatchWorks\BatchDialogCell.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\BatchWorks\BatchDialogCell.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

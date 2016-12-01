@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram;
+package org.telegram.ui.Supergram;
 
 import android.os.Environment;
 
@@ -323,7 +323,7 @@ public class MihanExternalStorage
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\MihanExternalStorage.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\MihanExternalStorage.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

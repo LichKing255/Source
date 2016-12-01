@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.Theming.ColorPicker;
+package org.telegram.ui.Supergram.Theming.ColorPicker;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -20,7 +20,7 @@ import android.widget.LinearLayout;
 import android.widget.LinearLayout.LayoutParams;
 import android.widget.TextView;
 import android.widget.TextView.OnEditorActionListener;
-import org.telegram.ui.Mihangram.Theming.MihanTheme;
+import org.telegram.ui.Supergram.Theming.MihanTheme;
 
 public class HexSelectorView
   extends LinearLayout
@@ -190,7 +190,7 @@ public class HexSelectorView
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\Theming\ColorPicker\HexSelectorView.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\Theming\ColorPicker\HexSelectorView.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

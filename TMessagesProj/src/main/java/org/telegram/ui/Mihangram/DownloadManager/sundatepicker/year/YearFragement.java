@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.DownloadManager.sundatepicker.year;
+package org.telegram.ui.Supergram.DownloadManager.sundatepicker.year;
 
 import android.content.res.Resources;
 import android.os.Bundle;
@@ -43,7 +43,7 @@ public class YearFragement
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\DownloadManager\sundatepicker\year\YearFragement.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\DownloadManager\sundatepicker\year\YearFragement.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

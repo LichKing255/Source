@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.Theming;
+package org.telegram.ui.Supergram.Theming;
 
 import android.app.Activity;
 import android.app.AlertDialog.Builder;
@@ -41,8 +41,8 @@ import org.telegram.ui.Cells.TextSettingsCell;
 import org.telegram.ui.Components.AvatarDrawable;
 import org.telegram.ui.Components.ColorPickerView;
 import org.telegram.ui.Components.LayoutHelper;
-import org.telegram.ui.Mihangram.TextDescriptionCell;
-import org.telegram.ui.Mihangram.Theming.Fonts.FontSelectActivity;
+import org.telegram.ui.Supergram.TextDescriptionCell;
+import org.telegram.ui.Supergram.Theming.Fonts.FontSelectActivity;
 
 public class ThemingActivity
   extends BaseFragment
@@ -125,7 +125,7 @@ public class ThemingActivity
         //   63: dup
         //   64: invokespecial 47	java/lang/StringBuilder:<init>	()V
         //   67: aload_0
-        //   68: getfield 21	org/telegram/ui/Mihangram/Theming/ThemingActivity$3:val$editText	Landroid/widget/EditText;
+        //   68: getfield 21	org/telegram/ui/Supergram/Theming/ThemingActivity$3:val$editText	Landroid/widget/EditText;
         //   71: invokevirtual 84	android/widget/EditText:getText	()Landroid/text/Editable;
         //   74: invokevirtual 85	java/lang/Object:toString	()Ljava/lang/String;
         //   77: invokevirtual 62	java/lang/StringBuilder:append	(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -138,10 +138,10 @@ public class ThemingActivity
         //   95: aload_1
         //   96: invokeinterface 99 1 0
         //   101: aload_3
-        //   102: invokestatic 105	org/telegram/ui/Mihangram/Theming/XmlUtils/XmlUtils:writeMapXml	(Ljava/util/Map;Ljava/io/OutputStream;)V
+        //   102: invokestatic 105	org/telegram/ui/Supergram/Theming/XmlUtils/XmlUtils:writeMapXml	(Ljava/util/Map;Ljava/io/OutputStream;)V
         //   105: aload_0
-        //   106: getfield 19	org/telegram/ui/Mihangram/Theming/ThemingActivity$3:this$0	Lorg/telegram/ui/Mihangram/Theming/ThemingActivity;
-        //   109: invokevirtual 109	org/telegram/ui/Mihangram/Theming/ThemingActivity:getParentActivity	()Landroid/app/Activity;
+        //   106: getfield 19	org/telegram/ui/Supergram/Theming/ThemingActivity$3:this$0	Lorg/telegram/ui/Supergram/Theming/ThemingActivity;
+        //   109: invokevirtual 109	org/telegram/ui/Supergram/Theming/ThemingActivity:getParentActivity	()Landroid/app/Activity;
         //   112: ldc 111
         //   114: ldc 112
         //   116: invokestatic 118	org/telegram/messenger/LocaleController:getString	(Ljava/lang/String;I)Ljava/lang/String;
@@ -678,7 +678,7 @@ public class ThemingActivity
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\Theming\ThemingActivity.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\Theming\ThemingActivity.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram;
+package org.telegram.ui.Supergram;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -447,7 +447,7 @@ public class DialogsLoader
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\DialogsLoader.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\DialogsLoader.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

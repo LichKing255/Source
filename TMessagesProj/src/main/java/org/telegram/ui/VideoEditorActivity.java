@@ -66,7 +66,7 @@ import org.telegram.ui.Components.VideoSeekBarView;
 import org.telegram.ui.Components.VideoSeekBarView.SeekBarDelegate;
 import org.telegram.ui.Components.VideoTimelineView;
 import org.telegram.ui.Components.VideoTimelineView.VideoTimelineViewDelegate;
-import org.telegram.ui.Mihangram.Theming.MihanTheme;
+import org.telegram.ui.Supergram.Theming.MihanTheme;
 
 @TargetApi(16)
 public class VideoEditorActivity

@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.Painting;
+package org.telegram.ui.Supergram.Painting;
 
 import android.app.Activity;
 import android.content.Context;
@@ -47,9 +47,9 @@ import org.telegram.ui.ActionBar.ActionBarMenu;
 import org.telegram.ui.ActionBar.BaseFragment;
 import org.telegram.ui.ChatActivity;
 import org.telegram.ui.Components.LayoutHelper;
-import org.telegram.ui.Mihangram.Theming.ColorPicker.ColorSelectorDialog;
-import org.telegram.ui.Mihangram.Theming.ColorPicker.ColorSelectorDialog.OnColorChangedListener;
-import org.telegram.ui.Mihangram.Theming.MihanTheme;
+import org.telegram.ui.Supergram.Theming.ColorPicker.ColorSelectorDialog;
+import org.telegram.ui.Supergram.Theming.ColorPicker.ColorSelectorDialog.OnColorChangedListener;
+import org.telegram.ui.Supergram.Theming.MihanTheme;
 import org.telegram.ui.PhotoViewer;
 import org.telegram.ui.PhotoViewer.EmptyPhotoViewerProvider;
 
@@ -88,7 +88,7 @@ public class PaintActivity
   
   private void clearPaintingFolder()
   {
-    File localFile = new File(Environment.getExternalStorageDirectory() + "/Mihangram/Painting");
+    File localFile = new File(Environment.getExternalStorageDirectory() + "/Supergram/Painting");
     if (localFile.isDirectory())
     {
       String[] arrayOfString = localFile.list();
@@ -112,7 +112,7 @@ public class PaintActivity
     }
     for (;;)
     {
-      Object localObject2 = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + "/Mihangram/Painting/");
+      Object localObject2 = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + "/Supergram/Painting/");
       if (!((File)localObject2).exists()) {
         ((File)localObject2).mkdirs();
       }
@@ -151,7 +151,7 @@ public class PaintActivity
     if (this.dialog_id == 0L) {
       this.dialog_id = Long.valueOf(l).longValue();
     }
-    this.path = (Environment.getExternalStorageDirectory().getAbsolutePath() + "/Mihangram/Painting/" + this.randomName);
+    this.path = (Environment.getExternalStorageDirectory().getAbsolutePath() + "/Supergram/Painting/" + this.randomName);
     ArrayList localArrayList = new ArrayList();
     this.photoEntry = new MediaController.PhotoEntry(0, 0, 0L, this.path, 0, false);
     localArrayList.add(this.photoEntry);
@@ -562,7 +562,7 @@ public class PaintActivity
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\Painting\PaintActivity.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\Painting\PaintActivity.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

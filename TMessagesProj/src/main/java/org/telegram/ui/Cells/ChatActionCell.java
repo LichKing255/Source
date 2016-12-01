@@ -29,7 +29,7 @@ import org.telegram.tgnet.TLRPC.PhotoSize;
 import org.telegram.tgnet.TLRPC.TL_messageActionUserUpdatedPhoto;
 import org.telegram.tgnet.TLRPC.UserProfilePhoto;
 import org.telegram.ui.Components.AvatarDrawable;
-import org.telegram.ui.Mihangram.Theming.MihanTheme;
+import org.telegram.ui.Supergram.Theming.MihanTheme;
 import org.telegram.ui.PhotoViewer;
 
 public class ChatActionCell

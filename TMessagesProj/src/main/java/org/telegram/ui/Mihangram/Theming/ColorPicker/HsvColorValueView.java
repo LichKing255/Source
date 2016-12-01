@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.Theming.ColorPicker;
+package org.telegram.ui.Supergram.Theming.ColorPicker;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -234,7 +234,7 @@ public class HsvColorValueView
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\Theming\ColorPicker\HsvColorValueView.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\Theming\ColorPicker\HsvColorValueView.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

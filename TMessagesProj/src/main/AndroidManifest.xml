@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="com.mihan.mihangram" platformBuildVersionCode="23" platformBuildVersionName="6.0-2438415">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="com.baranak.tsupergram" platformBuildVersionCode="23" platformBuildVersionName="6.0-2438415">
     <uses-feature android:name="android.hardware.location.gps" android:required="false"/>
     <uses-feature android:name="android.hardware.location.network" android:required="false"/>
     <uses-feature android:name="android.hardware.location" android:required="false"/>
     <uses-feature android:name="android.hardware.LOCATION" android:required="false"/>
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
-    <uses-permission android:name="com.mihan.mihangram.permission.MAPS_RECEIVE"/>
-    <uses-permission android:name="com.mihan.mihangram.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.baranak.tsupergram.permission.MAPS_RECEIVE"/>
+    <uses-permission android:name="com.baranak.tsupergram.permission.C2D_MESSAGE"/>
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-    <permission android:name="com.mihan.mihangram.permission.MAPS_RECEIVE" android:protectionLevel="signature"/>
-    <permission android:name="com.mihan.mihangram.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <permission android:name="com.baranak.tsupergram.permission.MAPS_RECEIVE" android:protectionLevel="signature"/>
+    <permission android:name="com.baranak.tsupergram.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
     <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true" android:xlargeScreens="true"/>
     <uses-feature android:glEsVersion="0x20000" android:required="true"/>
     <uses-feature android:name="android.hardware.telephony" android:required="false"/>
@@ -52,7 +52,7 @@
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
                 <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>
-                <category android:name="com.mihan.mihangram"/>
+                <category android:name="com.baranak.tsupergram"/>
             </intent-filter>
         </receiver>
         <service android:exported="false" android:name="org.telegram.messenger.GcmPushListenerService">
@@ -204,11 +204,11 @@
         <meta-data android:name="com.sec.android.multiwindow.MINIMUM_SIZE_H" android:value="598dp"/>
         <meta-data android:name="com.google.android.gms.car.notification.SmallIcon" android:resource="@drawable/ic_player"/>
         <meta-data android:name="com.google.android.gms.car.application" android:resource="@xml/automotive_app_desc"/>
-        <receiver android:name="org.telegram.ui.Mihangram.DownloadManager.Receiver.DownloadReceiver"/>
-        <activity android:name="org.telegram.ui.Mihangram.DownloadManager.ReminderAddActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
-        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="org.telegram.ui.Mihangram.DownloadManager.Download" android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:windowSoftInputMode="adjustNothing"/>
+        <receiver android:name="org.telegram.ui.Supergram.DownloadManager.Receiver.DownloadReceiver"/>
+        <activity android:name="org.telegram.ui.Supergram.DownloadManager.ReminderAddActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="org.telegram.ui.Supergram.DownloadManager.Download" android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:windowSoftInputMode="adjustNothing"/>
         <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
-        <provider android:authorities="com.mihan.mihangram.google_measurement_service" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementContentProvider"/>
+        <provider android:authorities="com.baranak.tsupergram.google_measurement_service" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementContentProvider"/>
         <receiver android:enabled="true" android:name="com.google.android.gms.measurement.AppMeasurementReceiver">
             <intent-filter>
                 <action android:name="com.google.android.gms.measurement.UPLOAD"/>

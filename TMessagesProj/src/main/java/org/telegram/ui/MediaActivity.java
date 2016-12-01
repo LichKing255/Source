@@ -115,7 +115,7 @@ import org.telegram.ui.Components.PlayerView;
 import org.telegram.ui.Components.SectionsListView;
 import org.telegram.ui.Components.ShareAlert;
 import org.telegram.ui.Components.WebFrameLayout;
-import org.telegram.ui.Mihangram.Theming.MihanTheme;
+import org.telegram.ui.Supergram.Theming.MihanTheme;
 
 public class MediaActivity
   extends BaseFragment

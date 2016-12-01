@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.DownloadManager.sundatepicker;
+package org.telegram.ui.Supergram.DownloadManager.sundatepicker;
 
 import android.graphics.Typeface;
 import android.os.Bundle;
@@ -8,7 +8,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.CheckBox;
 import java.util.Calendar;
-import org.telegram.ui.Mihangram.DownloadManager.sundatepicker.tool.JDF;
+import org.telegram.ui.Supergram.DownloadManager.sundatepicker.tool.JDF;
 
 public class ExampleActivity
   extends FragmentActivity
@@ -100,7 +100,7 @@ public class ExampleActivity
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\DownloadManager\sundatepicker\ExampleActivity.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\DownloadManager\sundatepicker\ExampleActivity.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

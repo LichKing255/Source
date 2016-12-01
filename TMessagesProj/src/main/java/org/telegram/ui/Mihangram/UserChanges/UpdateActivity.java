@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.UserChanges;
+package org.telegram.ui.Supergram.UserChanges;
 
 import android.app.Activity;
 import android.app.AlertDialog.Builder;
@@ -44,7 +44,7 @@ import org.telegram.ui.ActionBar.ActionBarMenuItem;
 import org.telegram.ui.ActionBar.BaseFragment;
 import org.telegram.ui.ChatActivity;
 import org.telegram.ui.Components.BackupImageView;
-import org.telegram.ui.Mihangram.Theming.MihanTheme;
+import org.telegram.ui.Supergram.Theming.MihanTheme;
 import org.telegram.ui.PhotoViewer;
 import org.telegram.ui.PhotoViewer.PhotoViewerProvider;
 import org.telegram.ui.PhotoViewer.PlaceProviderObject;
@@ -424,7 +424,7 @@ public class UpdateActivity
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\UserChanges\UpdateActivity.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\UserChanges\UpdateActivity.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

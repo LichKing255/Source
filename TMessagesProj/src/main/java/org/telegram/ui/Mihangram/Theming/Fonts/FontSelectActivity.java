@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.Theming.Fonts;
+package org.telegram.ui.Supergram.Theming.Fonts;
 
 import android.app.Activity;
 import android.app.AlarmManager;
@@ -214,7 +214,7 @@ public class FontSelectActivity
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\Theming\Fonts\FontSelectActivity.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\Theming\Fonts\FontSelectActivity.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

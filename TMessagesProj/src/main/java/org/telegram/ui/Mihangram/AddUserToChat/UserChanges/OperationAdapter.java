@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.AddUserToChat.UserChanges;
+package org.telegram.ui.Supergram.AddUserToChat.UserChanges;
 
 import android.content.Context;
 import android.view.View;
@@ -6,7 +6,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import java.util.ArrayList;
 import org.telegram.messenger.ApplicationLoader;
-import org.telegram.ui.Mihangram.SpecialContacts.SpecialContactCell;
+import org.telegram.ui.Supergram.SpecialContacts.SpecialContactCell;
 
 public class OperationAdapter
   extends BaseAdapter
@@ -59,7 +59,7 @@ public class OperationAdapter
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\AddUserToChat\UserChanges\OperationAdapter.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\AddUserToChat\UserChanges\OperationAdapter.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

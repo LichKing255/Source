@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.AddUserToChat;
+package org.telegram.ui.Supergram.AddUserToChat;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -403,7 +403,7 @@ public class AddUserActivity
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\AddUserToChat\AddUserActivity.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\AddUserToChat\AddUserActivity.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

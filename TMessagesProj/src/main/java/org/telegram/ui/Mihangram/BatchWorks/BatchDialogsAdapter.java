@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.BatchWorks;
+package org.telegram.ui.Supergram.BatchWorks;
 
 import android.content.Context;
 import android.view.View;
@@ -11,7 +11,7 @@ import org.telegram.messenger.support.widget.RecyclerView.LayoutParams;
 import org.telegram.messenger.support.widget.RecyclerView.ViewHolder;
 import org.telegram.tgnet.TLRPC.TL_dialog;
 import org.telegram.ui.Cells.LoadingCell;
-import org.telegram.ui.Mihangram.DialogsLoader;
+import org.telegram.ui.Supergram.DialogsLoader;
 
 public class BatchDialogsAdapter
   extends RecyclerView.Adapter
@@ -144,7 +144,7 @@ public class BatchDialogsAdapter
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\BatchWorks\BatchDialogsAdapter.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\BatchWorks\BatchDialogsAdapter.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

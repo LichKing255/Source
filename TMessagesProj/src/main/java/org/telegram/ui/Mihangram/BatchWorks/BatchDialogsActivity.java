@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.BatchWorks;
+package org.telegram.ui.Supergram.BatchWorks;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -70,8 +70,8 @@ import org.telegram.ui.Components.LayoutHelper;
 import org.telegram.ui.Components.PlayerView;
 import org.telegram.ui.Components.RecyclerListView;
 import org.telegram.ui.Components.RecyclerListView.OnItemClickListener;
-import org.telegram.ui.Mihangram.DialogsLoader;
-import org.telegram.ui.Mihangram.Theming.MihanTheme;
+import org.telegram.ui.Supergram.DialogsLoader;
+import org.telegram.ui.Supergram.Theming.MihanTheme;
 
 public class BatchDialogsActivity
   extends BaseFragment
@@ -1404,7 +1404,7 @@ public class BatchDialogsActivity
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\BatchWorks\BatchDialogsActivity.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\BatchWorks\BatchDialogsActivity.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

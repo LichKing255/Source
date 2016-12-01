@@ -2451,7 +2451,7 @@ public final class R
     public static final int DownloadBazar = 2131166627;
     public static final int DownloadBazarDes = 2131166628;
     public static final int DownloadManager = 2131166629;
-    public static final int DownloadMihangram = 2131166630;
+    public static final int DownloadSupergram = 2131166630;
     public static final int Draft = 2131166631;
     public static final int Edit = 2131165635;
     public static final int EditContact = 2131165636;

@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.UserChanges.mobo.a;
+package org.telegram.ui.Supergram.UserChanges.mobo.a;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -78,7 +78,7 @@ public class a
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\UserChanges\mobo\a\a.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\UserChanges\mobo\a\a.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

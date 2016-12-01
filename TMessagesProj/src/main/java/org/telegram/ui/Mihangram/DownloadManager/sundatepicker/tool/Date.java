@@ -1,8 +1,8 @@
-package org.telegram.ui.Mihangram.DownloadManager.sundatepicker.tool;
+package org.telegram.ui.Supergram.DownloadManager.sundatepicker.tool;
 
 import android.widget.TextView;
-import org.telegram.ui.Mihangram.DownloadManager.sundatepicker.DatePickerDialog;
-import org.telegram.ui.Mihangram.DownloadManager.sundatepicker.month.MonthMainFragement;
+import org.telegram.ui.Supergram.DownloadManager.sundatepicker.DatePickerDialog;
+import org.telegram.ui.Supergram.DownloadManager.sundatepicker.month.MonthMainFragement;
 
 public class Date
 {
@@ -96,7 +96,7 @@ public class Date
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\DownloadManager\sundatepicker\tool\Date.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\DownloadManager\sundatepicker\tool\Date.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

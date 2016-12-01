@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.SpecialContacts;
+package org.telegram.ui.Supergram.SpecialContacts;
 
 import android.app.AlertDialog.Builder;
 import android.content.Context;
@@ -428,7 +428,7 @@ public class SpecialNotificationsActivity
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\SpecialContacts\SpecialNotificationsActivity.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\SpecialContacts\SpecialNotificationsActivity.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

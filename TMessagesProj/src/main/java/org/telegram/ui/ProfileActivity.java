@@ -153,8 +153,8 @@ import org.telegram.ui.Components.LayoutHelper;
 import org.telegram.ui.Components.RecyclerListView;
 import org.telegram.ui.Components.RecyclerListView.OnItemClickListener;
 import org.telegram.ui.Components.RecyclerListView.OnItemLongClickListener;
-import org.telegram.ui.Mihangram.SpecialContacts.SpecialContactsActivity;
-import org.telegram.ui.Mihangram.Theming.MihanTheme;
+import org.telegram.ui.Supergram.SpecialContacts.SpecialContactsActivity;
+import org.telegram.ui.Supergram.Theming.MihanTheme;
 
 public class ProfileActivity
   extends BaseFragment

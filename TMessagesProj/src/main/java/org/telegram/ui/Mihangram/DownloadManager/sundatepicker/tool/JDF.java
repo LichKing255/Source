@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.DownloadManager.sundatepicker.tool;
+package org.telegram.ui.Supergram.DownloadManager.sundatepicker.tool;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -421,7 +421,7 @@ public class JDF
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\DownloadManager\sundatepicker\tool\JDF.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\DownloadManager\sundatepicker\tool\JDF.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

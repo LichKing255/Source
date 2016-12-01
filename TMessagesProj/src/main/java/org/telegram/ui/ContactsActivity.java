@@ -60,9 +60,9 @@ import org.telegram.ui.Adapters.ContactsAdapter;
 import org.telegram.ui.Adapters.SearchAdapter;
 import org.telegram.ui.Cells.UserCell;
 import org.telegram.ui.Components.LetterSectionsListView;
-import org.telegram.ui.Mihangram.AddContactActivity;
-import org.telegram.ui.Mihangram.DeleteContactActivity;
-import org.telegram.ui.Mihangram.Theming.MihanTheme;
+import org.telegram.ui.Supergram.AddContactActivity;
+import org.telegram.ui.Supergram.DeleteContactActivity;
+import org.telegram.ui.Supergram.Theming.MihanTheme;
 
 public class ContactsActivity
   extends BaseFragment

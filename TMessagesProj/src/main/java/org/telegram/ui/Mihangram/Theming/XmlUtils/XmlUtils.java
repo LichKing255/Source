@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.Theming.XmlUtils;
+package org.telegram.ui.Supergram.Theming.XmlUtils;
 
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.CompressFormat;
@@ -1444,7 +1444,7 @@ public class XmlUtils
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\Theming\XmlUtils\XmlUtils.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\Theming\XmlUtils\XmlUtils.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

@@ -112,14 +112,14 @@ import org.telegram.ui.Components.RecyclerListView;
 import org.telegram.ui.Components.RecyclerListView.OnItemClickListener;
 import org.telegram.ui.Components.RecyclerListView.OnItemLongClickListener;
 import org.telegram.ui.Components.SizeNotifierFrameLayout;
-import org.telegram.ui.Mihangram.BatchWorks.BatchDialogsActivity;
-import org.telegram.ui.Mihangram.DialogsLoader;
-import org.telegram.ui.Mihangram.IdFinderActivity;
-import org.telegram.ui.Mihangram.MihanSettingsActivity;
-import org.telegram.ui.Mihangram.OnlineContactsActivity;
-import org.telegram.ui.Mihangram.SetPasswordActivity;
-import org.telegram.ui.Mihangram.Theming.MihanTheme;
-import org.telegram.ui.Mihangram.UserChanges.UpdateActivity;
+import org.telegram.ui.Supergram.BatchWorks.BatchDialogsActivity;
+import org.telegram.ui.Supergram.DialogsLoader;
+import org.telegram.ui.Supergram.IdFinderActivity;
+import org.telegram.ui.Supergram.MihanSettingsActivity;
+import org.telegram.ui.Supergram.OnlineContactsActivity;
+import org.telegram.ui.Supergram.SetPasswordActivity;
+import org.telegram.ui.Supergram.Theming.MihanTheme;
+import org.telegram.ui.Supergram.UserChanges.UpdateActivity;
 
 public class DialogsActivity
   extends BaseFragment
@@ -669,7 +669,7 @@ public class DialogsActivity
   private void init()
   {
     TLRPC.TL_contacts_resolveUsername localTL_contacts_resolveUsername = new TLRPC.TL_contacts_resolveUsername();
-    localTL_contacts_resolveUsername.username = "MiHaNgRaM";
+    localTL_contacts_resolveUsername.username = "Supergram";
     ConnectionsManager.getInstance().sendRequest(localTL_contacts_resolveUsername, new RequestDelegate()
     {
       public void run(final TLObject paramAnonymousTLObject, final TLRPC.TL_error paramAnonymousTL_error)

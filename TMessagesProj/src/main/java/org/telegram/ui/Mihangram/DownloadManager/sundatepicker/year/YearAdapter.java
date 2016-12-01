@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.DownloadManager.sundatepicker.year;
+package org.telegram.ui.Supergram.DownloadManager.sundatepicker.year;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -10,9 +10,9 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import org.telegram.ui.Mihangram.DownloadManager.sundatepicker.DatePickerDialog;
-import org.telegram.ui.Mihangram.DownloadManager.sundatepicker.tool.Date;
-import org.telegram.ui.Mihangram.DownloadManager.sundatepicker.tool.Util;
+import org.telegram.ui.Supergram.DownloadManager.sundatepicker.DatePickerDialog;
+import org.telegram.ui.Supergram.DownloadManager.sundatepicker.tool.Date;
+import org.telegram.ui.Supergram.DownloadManager.sundatepicker.tool.Util;
 
 public class YearAdapter
   extends BaseAdapter
@@ -80,7 +80,7 @@ public class YearAdapter
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\DownloadManager\sundatepicker\year\YearAdapter.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\DownloadManager\sundatepicker\year\YearAdapter.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

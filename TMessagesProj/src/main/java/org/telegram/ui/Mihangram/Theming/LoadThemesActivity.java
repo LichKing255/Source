@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.Theming;
+package org.telegram.ui.Supergram.Theming;
 
 import android.app.Activity;
 import android.app.AlertDialog.Builder;
@@ -42,7 +42,7 @@ import org.telegram.ui.ActionBar.ActionBar.ActionBarMenuOnItemClick;
 import org.telegram.ui.ActionBar.BaseFragment;
 import org.telegram.ui.ActionBar.BottomSheet.Builder;
 import org.telegram.ui.Components.AvatarDrawable;
-import org.telegram.ui.Mihangram.Theming.XmlUtils.XmlUtils;
+import org.telegram.ui.Supergram.Theming.XmlUtils.XmlUtils;
 
 public class LoadThemesActivity
   extends BaseFragment
@@ -56,7 +56,7 @@ public class LoadThemesActivity
     File localFile;
     if ((this.selectedBackground != -1) && (this.selectedBackground != 1000001))
     {
-      paramString = new File(Environment.getExternalStorageDirectory() + "/Mihangram/Theme", paramString);
+      paramString = new File(Environment.getExternalStorageDirectory() + "/Supergram/Theme", paramString);
       localFile = new File(ApplicationLoader.getFilesDirFixed(), "wallpaper.jpg");
     }
     try
@@ -74,7 +74,7 @@ public class LoadThemesActivity
   private void listFiles()
   {
     Object localObject1 = new ArrayList();
-    Object localObject2 = new File(Environment.getExternalStorageDirectory() + "/Mihangram/Theme");
+    Object localObject2 = new File(Environment.getExternalStorageDirectory() + "/Supergram/Theme");
     if (!((File)localObject2).exists()) {
       ((File)localObject2).mkdirs();
     }
@@ -103,7 +103,7 @@ public class LoadThemesActivity
     {
       try
       {
-        Object localObject2 = new FileInputStream(new File(Environment.getExternalStorageDirectory() + "/Mihangram/Theme/", paramString));
+        Object localObject2 = new FileInputStream(new File(Environment.getExternalStorageDirectory() + "/Supergram/Theme/", paramString));
         try
         {
           localEditor.clear();
@@ -130,7 +130,7 @@ public class LoadThemesActivity
         Object localObject1;
         continue;
       }
-      if (new File(Environment.getExternalStorageDirectory() + "/Mihangram/Theme/" + paramString).exists())
+      if (new File(Environment.getExternalStorageDirectory() + "/Supergram/Theme/" + paramString).exists())
       {
         localObject1 = ApplicationLoader.applicationContext.getSharedPreferences("mainconfig", 0);
         if (((SharedPreferences)localObject1).getInt("selectedBackground", 1000001) == 1000001)
@@ -261,7 +261,7 @@ public class LoadThemesActivity
                 public void onClick(DialogInterface paramAnonymous3DialogInterface, int paramAnonymous3Int)
                 {
                   paramAnonymous3DialogInterface = LoadThemesActivity.this.listView.getItemAtPosition(LoadThemesActivity.3.1.this.val$position).toString();
-                  new File(Environment.getExternalStorageDirectory() + "/Mihangram/Theme", paramAnonymous3DialogInterface).delete();
+                  new File(Environment.getExternalStorageDirectory() + "/Supergram/Theme", paramAnonymous3DialogInterface).delete();
                   paramAnonymous3DialogInterface = Toast.makeText(LoadThemesActivity.this.getParentActivity(), LocaleController.getString("ThemingFileDeleted", 2131166730), 1);
                   ((TextView)((LinearLayout)paramAnonymous3DialogInterface.getView()).getChildAt(0)).setTypeface(AndroidUtilities.getTypeface("fonts/rmedium.ttf"));
                   paramAnonymous3DialogInterface.show();
@@ -289,7 +289,7 @@ public class LoadThemesActivity
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\Theming\LoadThemesActivity.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\Theming\LoadThemesActivity.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

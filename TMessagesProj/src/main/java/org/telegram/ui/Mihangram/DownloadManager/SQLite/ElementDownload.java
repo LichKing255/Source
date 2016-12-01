@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.DownloadManager.SQLite;
+package org.telegram.ui.Supergram.DownloadManager.SQLite;
 
 public class ElementDownload
 {
@@ -199,7 +199,7 @@ public class ElementDownload
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\DownloadManager\SQLite\ElementDownload.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\DownloadManager\SQLite\ElementDownload.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

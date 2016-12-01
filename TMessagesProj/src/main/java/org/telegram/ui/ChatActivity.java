@@ -248,10 +248,10 @@ import org.telegram.ui.Components.URLSpanNoUnderline;
 import org.telegram.ui.Components.URLSpanReplacement;
 import org.telegram.ui.Components.URLSpanUserMention;
 import org.telegram.ui.Components.WebFrameLayout;
-import org.telegram.ui.Mihangram.DownloadManager.SQLite.SQLDownload;
-import org.telegram.ui.Mihangram.MihanHintDialogCell;
-import org.telegram.ui.Mihangram.Theming.MihanTheme;
-import org.telegram.ui.Mihangram.Theming.XmlUtils.XmlUtils;
+import org.telegram.ui.Supergram.DownloadManager.SQLite.SQLDownload;
+import org.telegram.ui.Supergram.MihanHintDialogCell;
+import org.telegram.ui.Supergram.Theming.MihanTheme;
+import org.telegram.ui.Supergram.Theming.XmlUtils.XmlUtils;
 
 public class ChatActivity
   extends BaseFragment
@@ -1313,7 +1313,7 @@ public class ChatActivity
   
   private void clearBGFolder()
   {
-    File localFile = new File(Environment.getExternalStorageDirectory() + "/Mihangram/Theme/JustWall");
+    File localFile = new File(Environment.getExternalStorageDirectory() + "/Supergram/Theme/JustWall");
     if (localFile.isDirectory())
     {
       String[] arrayOfString = localFile.list();
@@ -2799,7 +2799,7 @@ public class ChatActivity
       localObject1 = ApplicationLoader.applicationContext.getSharedPreferences("Mihantheme", 0).edit();
       try
       {
-        Object localObject3 = new FileInputStream(new File(Environment.getExternalStorageDirectory() + "/Mihangram/Theme/", paramString));
+        Object localObject3 = new FileInputStream(new File(Environment.getExternalStorageDirectory() + "/Supergram/Theme/", paramString));
         try
         {
           ((SharedPreferences.Editor)localObject1).clear();
@@ -2831,7 +2831,7 @@ public class ChatActivity
       }
       i = ((SharedPreferences)localObject2).getInt("selectedBackground", 1000001);
       paramString = paramString.substring(0, paramString.lastIndexOf(".")) + ".jpg";
-      if (new File(Environment.getExternalStorageDirectory() + "/Mihangram/Theme/Wallpaper/" + paramString).exists())
+      if (new File(Environment.getExternalStorageDirectory() + "/Supergram/Theme/Wallpaper/" + paramString).exists())
       {
         if (((SharedPreferences)localObject2).getInt("selectedBackground", 1000001) == 1000001)
         {
@@ -2843,7 +2843,7 @@ public class ChatActivity
         }
         if ((i != -1) && (i != 1000001))
         {
-          paramString = new File(Environment.getExternalStorageDirectory() + "/Mihangram/Theme/Wallpaper", paramString);
+          paramString = new File(Environment.getExternalStorageDirectory() + "/Supergram/Theme/Wallpaper", paramString);
           localObject2 = new File(ApplicationLoader.getFilesDirFixed(), "wallpaper.jpg");
         }
       }
@@ -4280,7 +4280,7 @@ public class ChatActivity
     {
       Thread.sleep(3000L);
       localObject1 = "";
-      localObject2 = new File(Environment.getExternalStorageDirectory() + "/Mihangram/Theme/JustWall");
+      localObject2 = new File(Environment.getExternalStorageDirectory() + "/Supergram/Theme/JustWall");
       if (!((File)localObject2).exists()) {
         ((File)localObject2).mkdirs();
       }
@@ -4290,7 +4290,7 @@ public class ChatActivity
       }
       localObject2 = ApplicationLoader.applicationContext.getSharedPreferences("mainconfig", 0);
       int i = ((SharedPreferences)localObject2).getInt("selectedBackground", 1000001);
-      if (new File(Environment.getExternalStorageDirectory() + "/Mihangram/Theme/JustWall/" + (String)localObject1).exists())
+      if (new File(Environment.getExternalStorageDirectory() + "/Supergram/Theme/JustWall/" + (String)localObject1).exists())
       {
         if (((SharedPreferences)localObject2).getInt("selectedBackground", 1000001) == 1000001)
         {
@@ -4302,7 +4302,7 @@ public class ChatActivity
         }
         if ((i != -1) && (i != 1000001))
         {
-          localObject1 = new File(Environment.getExternalStorageDirectory() + "/Mihangram/Theme/JustWall", (String)localObject1);
+          localObject1 = new File(Environment.getExternalStorageDirectory() + "/Supergram/Theme/JustWall", (String)localObject1);
           localObject2 = new File(ApplicationLoader.getFilesDirFixed(), "wallpaper.jpg");
         }
       }

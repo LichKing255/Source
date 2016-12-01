@@ -2824,7 +2824,7 @@
     <public type="string" name="DownloadBazar" id="0x7f0705a3" />
     <public type="string" name="DownloadBazarDes" id="0x7f0705a4" />
     <public type="string" name="DownloadManager" id="0x7f0705a5" />
-    <public type="string" name="DownloadMihangram" id="0x7f0705a6" />
+    <public type="string" name="DownloadSupergram" id="0x7f0705a6" />
     <public type="string" name="Draft" id="0x7f0705a7" />
     <public type="string" name="EnableSCServiceDes" id="0x7f0705a8" />
     <public type="string" name="EnableSpecialContacts" id="0x7f0705a9" />

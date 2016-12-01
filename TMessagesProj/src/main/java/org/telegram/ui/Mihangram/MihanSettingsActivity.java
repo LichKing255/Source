@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram;
+package org.telegram.ui.Supergram;
 
 import android.app.Activity;
 import android.app.AlarmManager;
@@ -97,9 +97,9 @@ import org.telegram.ui.Components.BackupImageView;
 import org.telegram.ui.Components.LayoutHelper;
 import org.telegram.ui.DocumentSelectActivity;
 import org.telegram.ui.DocumentSelectActivity.DocumentSelectActivityDelegate;
-import org.telegram.ui.Mihangram.Theming.MihanTheme;
-import org.telegram.ui.Mihangram.Theming.ThemingActivity;
-import org.telegram.ui.Mihangram.Theming.XmlUtils.XmlUtils;
+import org.telegram.ui.Supergram.Theming.MihanTheme;
+import org.telegram.ui.Supergram.Theming.ThemingActivity;
+import org.telegram.ui.Supergram.Theming.XmlUtils.XmlUtils;
 import org.telegram.ui.PhotoViewer;
 
 public class MihanSettingsActivity
@@ -510,7 +510,7 @@ public class MihanSettingsActivity
         //   58: dup
         //   59: aload_3
         //   60: aload_0
-        //   61: getfield 21	org/telegram/ui/Mihangram/MihanSettingsActivity$7:val$editText	Landroid/widget/EditText;
+        //   61: getfield 21	org/telegram/ui/Supergram/MihanSettingsActivity$7:val$editText	Landroid/widget/EditText;
         //   64: invokevirtual 84	android/widget/EditText:getText	()Landroid/text/Editable;
         //   67: invokevirtual 85	java/lang/Object:toString	()Ljava/lang/String;
         //   70: invokespecial 88	java/io/File:<init>	(Ljava/io/File;Ljava/lang/String;)V
@@ -519,10 +519,10 @@ public class MihanSettingsActivity
         //   77: aload_1
         //   78: invokeinterface 97 1 0
         //   83: aload_3
-        //   84: invokestatic 103	org/telegram/ui/Mihangram/Theming/XmlUtils/XmlUtils:writeMapXml	(Ljava/util/Map;Ljava/io/OutputStream;)V
+        //   84: invokestatic 103	org/telegram/ui/Supergram/Theming/XmlUtils/XmlUtils:writeMapXml	(Ljava/util/Map;Ljava/io/OutputStream;)V
         //   87: aload_0
-        //   88: getfield 19	org/telegram/ui/Mihangram/MihanSettingsActivity$7:this$0	Lorg/telegram/ui/Mihangram/MihanSettingsActivity;
-        //   91: invokevirtual 107	org/telegram/ui/Mihangram/MihanSettingsActivity:getParentActivity	()Landroid/app/Activity;
+        //   88: getfield 19	org/telegram/ui/Supergram/MihanSettingsActivity$7:this$0	Lorg/telegram/ui/Supergram/MihanSettingsActivity;
+        //   91: invokevirtual 107	org/telegram/ui/Supergram/MihanSettingsActivity:getParentActivity	()Landroid/app/Activity;
         //   94: ldc 109
         //   96: ldc 110
         //   98: invokestatic 116	org/telegram/messenger/LocaleController:getString	(Ljava/lang/String;I)Ljava/lang/String;
@@ -2574,7 +2574,7 @@ public class MihanSettingsActivity
             try
             {
               paramViewGroup = ApplicationLoader.applicationContext.getPackageManager().getPackageInfo(ApplicationLoader.applicationContext.getPackageName(), 0);
-              ((TextInfoCell)paramView).setText(String.format(Locale.US, "Mihangram for Android v%s (%d)", new Object[] { paramViewGroup.versionName, Integer.valueOf(paramViewGroup.versionCode) }));
+              ((TextInfoCell)paramView).setText(String.format(Locale.US, "Supergram for Android v%s (%d)", new Object[] { paramViewGroup.versionName, Integer.valueOf(paramViewGroup.versionCode) }));
               return paramView;
             }
             catch (Exception paramViewGroup)
@@ -2801,7 +2801,7 @@ public class MihanSettingsActivity
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\MihanSettingsActivity.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\MihanSettingsActivity.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

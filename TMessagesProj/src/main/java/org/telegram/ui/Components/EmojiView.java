@@ -92,7 +92,7 @@ import org.telegram.tgnet.TLRPC.TL_messages_stickerSet;
 import org.telegram.ui.Cells.ContextLinkCell;
 import org.telegram.ui.Cells.EmptyCell;
 import org.telegram.ui.Cells.StickerEmojiCell;
-import org.telegram.ui.Mihangram.Theming.MihanTheme;
+import org.telegram.ui.Supergram.Theming.MihanTheme;
 import org.telegram.ui.StickerPreviewViewer;
 
 public class EmojiView

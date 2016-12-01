@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.DownloadManager.Adapter;
+package org.telegram.ui.Supergram.DownloadManager.Adapter;
 
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView.ViewHolder;
@@ -41,7 +41,7 @@ public class downloadItemViewHolder
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\DownloadManager\Adapter\downloadItemViewHolder.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\DownloadManager\Adapter\downloadItemViewHolder.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

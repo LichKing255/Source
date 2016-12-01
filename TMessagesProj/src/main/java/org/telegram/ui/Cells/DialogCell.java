@@ -55,8 +55,8 @@ import org.telegram.tgnet.TLRPC.User;
 import org.telegram.tgnet.TLRPC.UserProfilePhoto;
 import org.telegram.tgnet.TLRPC.UserStatus;
 import org.telegram.ui.Components.AvatarDrawable;
-import org.telegram.ui.Mihangram.DialogsLoader;
-import org.telegram.ui.Mihangram.Theming.MihanTheme;
+import org.telegram.ui.Supergram.DialogsLoader;
+import org.telegram.ui.Supergram.Theming.MihanTheme;
 
 public class DialogCell
   extends BaseCell

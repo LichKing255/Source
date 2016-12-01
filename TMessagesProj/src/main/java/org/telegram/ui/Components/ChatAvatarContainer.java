@@ -36,7 +36,7 @@ import org.telegram.tgnet.TLRPC.UserStatus;
 import org.telegram.ui.ActionBar.ActionBar;
 import org.telegram.ui.ActionBar.SimpleTextView;
 import org.telegram.ui.ChatActivity;
-import org.telegram.ui.Mihangram.Theming.MihanTheme;
+import org.telegram.ui.Supergram.Theming.MihanTheme;
 import org.telegram.ui.ProfileActivity;
 
 public class ChatAvatarContainer

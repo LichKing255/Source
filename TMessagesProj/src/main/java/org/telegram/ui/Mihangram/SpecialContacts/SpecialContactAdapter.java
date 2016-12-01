@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.SpecialContacts;
+package org.telegram.ui.Supergram.SpecialContacts;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -73,7 +73,7 @@ public class SpecialContactAdapter
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\SpecialContacts\SpecialContactAdapter.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\SpecialContacts\SpecialContactAdapter.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

@@ -1984,7 +1984,7 @@ public class ImageLoader
     //   78: invokestatic 1005	android/os/Environment:getExternalStorageState	()Ljava/lang/String;
     //   81: invokevirtual 1008	java/lang/String:equals	(Ljava/lang/Object;)Z
     //   84: ifeq +626 -> 710
-    //   87: invokestatic 1014	org/telegram/ui/Mihangram/MihanExternalStorage:getAllStorageLocations	()Ljava/util/Map;
+    //   87: invokestatic 1014	org/telegram/ui/Supergram/MihanExternalStorage:getAllStorageLocations	()Ljava/util/Map;
     //   90: astore 4
     //   92: new 314	java/io/File
     //   95: dup

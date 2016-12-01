@@ -88,7 +88,7 @@ import org.telegram.ui.Components.BackupImageView;
 import org.telegram.ui.Components.ChipSpan;
 import org.telegram.ui.Components.LayoutHelper;
 import org.telegram.ui.Components.LetterSectionsListView;
-import org.telegram.ui.Mihangram.Theming.MihanTheme;
+import org.telegram.ui.Supergram.Theming.MihanTheme;
 
 public class ChannelCreateActivity
   extends BaseFragment

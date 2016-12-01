@@ -314,7 +314,7 @@ import org.telegram.ui.ActionBar.BaseFragment;
 import org.telegram.ui.ChatActivity;
 import org.telegram.ui.Components.AlertsCreator;
 import org.telegram.ui.LaunchActivity;
-import org.telegram.ui.Mihangram.UserChanges.UpdateBiz;
+import org.telegram.ui.Supergram.UserChanges.UpdateBiz;
 import org.telegram.ui.ProfileActivity;
 
 public class MessagesController

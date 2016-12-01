@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram;
+package org.telegram.ui.Supergram;
 
 import android.app.Activity;
 import android.app.AlertDialog.Builder;
@@ -29,7 +29,7 @@ import org.telegram.messenger.LocaleController;
 
 public class MihanAuthenticaion
 {
-  String PackageName = "com.mihan.mihangram";
+  String PackageName = "com.baranak.tsupergram";
   Activity activity;
   LoginCheckServiceConnection loginConnection;
   ILoginCheckService loginService;
@@ -72,7 +72,7 @@ public class MihanAuthenticaion
     Object localObject1 = new AlertDialog.Builder(this.activity);
     ((AlertDialog.Builder)localObject1).setTitle(LocaleController.getString("AppName", 2131165338));
     ((AlertDialog.Builder)localObject1).setMessage(LocaleController.getString("DownloadBazarDes", 2131166628));
-    ((AlertDialog.Builder)localObject1).setPositiveButton(LocaleController.getString("DownloadMihangram", 2131166630), new DialogInterface.OnClickListener()
+    ((AlertDialog.Builder)localObject1).setPositiveButton(LocaleController.getString("DownloadSupergram", 2131166630), new DialogInterface.OnClickListener()
     {
       public void onClick(DialogInterface paramAnonymousDialogInterface, int paramAnonymousInt)
       {
@@ -87,7 +87,7 @@ public class MihanAuthenticaion
     {
       public void onClick(DialogInterface paramAnonymousDialogInterface, int paramAnonymousInt)
       {
-        paramAnonymousDialogInterface = new Intent("android.intent.action.VIEW", Uri.parse("http://0up.ir/up10/mihangram313.apk"));
+        paramAnonymousDialogInterface = new Intent("android.intent.action.VIEW", Uri.parse("http://0up.ir/up10/Supergram313.apk"));
         MihanAuthenticaion.this.activity.startActivity(paramAnonymousDialogInterface);
         System.exit(0);
       }
@@ -124,7 +124,7 @@ public class MihanAuthenticaion
     Object localObject1 = new AlertDialog.Builder(this.activity);
     ((AlertDialog.Builder)localObject1).setTitle(LocaleController.getString("AppName", 2131165338));
     ((AlertDialog.Builder)localObject1).setMessage(LocaleController.getString("CheckMainPackageInstalled", 2131166623));
-    ((AlertDialog.Builder)localObject1).setPositiveButton(LocaleController.getString("DownloadMihangram", 2131166630), new DialogInterface.OnClickListener()
+    ((AlertDialog.Builder)localObject1).setPositiveButton(LocaleController.getString("DownloadSupergram", 2131166630), new DialogInterface.OnClickListener()
     {
       public void onClick(DialogInterface paramAnonymousDialogInterface, int paramAnonymousInt)
       {
@@ -139,7 +139,7 @@ public class MihanAuthenticaion
     {
       public void onClick(DialogInterface paramAnonymousDialogInterface, int paramAnonymousInt)
       {
-        paramAnonymousDialogInterface = new Intent("android.intent.action.VIEW", Uri.parse("http://0up.ir/up10/mihangram313.apk"));
+        paramAnonymousDialogInterface = new Intent("android.intent.action.VIEW", Uri.parse("http://0up.ir/up10/Supergram313.apk"));
         MihanAuthenticaion.this.activity.startActivity(paramAnonymousDialogInterface);
         System.exit(0);
       }
@@ -201,7 +201,7 @@ public class MihanAuthenticaion
   public boolean isMainPackageInstalled()
   {
     boolean bool = false;
-    if (isPackageInstalled("com.mihan.mihangram")) {
+    if (isPackageInstalled("com.baranak.tsupergram")) {
       bool = true;
     }
     if (!bool) {
@@ -237,7 +237,7 @@ public class MihanAuthenticaion
           paramComponentName = new AlertDialog.Builder(MihanAuthenticaion.this.activity);
           paramComponentName.setTitle(LocaleController.getString("AppName", 2131165338));
           paramComponentName.setMessage(LocaleController.getString("DownloadBazarDes", 2131166628));
-          paramComponentName.setPositiveButton(LocaleController.getString("DownloadMihangram", 2131166630), new DialogInterface.OnClickListener()
+          paramComponentName.setPositiveButton(LocaleController.getString("DownloadSupergram", 2131166630), new DialogInterface.OnClickListener()
           {
             public void onClick(DialogInterface paramAnonymousDialogInterface, int paramAnonymousInt)
             {
@@ -252,7 +252,7 @@ public class MihanAuthenticaion
           {
             public void onClick(DialogInterface paramAnonymousDialogInterface, int paramAnonymousInt)
             {
-              paramAnonymousDialogInterface = new Intent("android.intent.action.VIEW", Uri.parse("http://0up.ir/up10/mihangram313.apk"));
+              paramAnonymousDialogInterface = new Intent("android.intent.action.VIEW", Uri.parse("http://0up.ir/up10/Supergram313.apk"));
               MihanAuthenticaion.this.activity.startActivity(paramAnonymousDialogInterface);
               System.exit(0);
             }
@@ -312,7 +312,7 @@ public class MihanAuthenticaion
           paramComponentName = new AlertDialog.Builder(MihanAuthenticaion.this.activity);
           paramComponentName.setTitle(LocaleController.getString("AppName", 2131165338));
           paramComponentName.setMessage(LocaleController.getString("DownloadBazarDes", 2131166628));
-          paramComponentName.setPositiveButton(LocaleController.getString("DownloadMihangram", 2131166630), new DialogInterface.OnClickListener()
+          paramComponentName.setPositiveButton(LocaleController.getString("DownloadSupergram", 2131166630), new DialogInterface.OnClickListener()
           {
             public void onClick(DialogInterface paramAnonymousDialogInterface, int paramAnonymousInt)
             {
@@ -327,7 +327,7 @@ public class MihanAuthenticaion
           {
             public void onClick(DialogInterface paramAnonymousDialogInterface, int paramAnonymousInt)
             {
-              paramAnonymousDialogInterface = new Intent("android.intent.action.VIEW", Uri.parse("http://0up.ir/up10/mihangram313.apk"));
+              paramAnonymousDialogInterface = new Intent("android.intent.action.VIEW", Uri.parse("http://0up.ir/up10/Supergram313.apk"));
               MihanAuthenticaion.this.activity.startActivity(paramAnonymousDialogInterface);
               System.exit(0);
             }
@@ -374,7 +374,7 @@ public class MihanAuthenticaion
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\MihanAuthenticaion.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\MihanAuthenticaion.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

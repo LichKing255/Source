@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.AddUserToChat.UserChanges;
+package org.telegram.ui.Supergram.AddUserToChat.UserChanges;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -110,7 +110,7 @@ public class SC_DBHelper
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\AddUserToChat\UserChanges\SC_DBHelper.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\AddUserToChat\UserChanges\SC_DBHelper.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

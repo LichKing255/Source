@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.Theming;
+package org.telegram.ui.Supergram.Theming;
 
 import android.app.Activity;
 import android.app.AlertDialog.Builder;
@@ -37,8 +37,8 @@ import org.telegram.ui.Cells.TextSettingsCell;
 import org.telegram.ui.Components.AvatarDrawable;
 import org.telegram.ui.Components.NumberPicker;
 import org.telegram.ui.ContactsActivity;
-import org.telegram.ui.Mihangram.Theming.ColorPicker.ColorSelectorDialog;
-import org.telegram.ui.Mihangram.Theming.ColorPicker.ColorSelectorDialog.OnColorChangedListener;
+import org.telegram.ui.Supergram.Theming.ColorPicker.ColorSelectorDialog;
+import org.telegram.ui.Supergram.Theming.ColorPicker.ColorSelectorDialog.OnColorChangedListener;
 
 public class ThemingContactActivity
   extends BaseFragment
@@ -761,7 +761,7 @@ public class ThemingContactActivity
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\Theming\ThemingContactActivity.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\Theming\ThemingContactActivity.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

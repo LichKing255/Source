@@ -29,7 +29,7 @@ import org.telegram.tgnet.TLRPC.TL_userStatusLastWeek;
 import org.telegram.tgnet.TLRPC.TL_userStatusRecently;
 import org.telegram.tgnet.TLRPC.User;
 import org.telegram.tgnet.TLRPC.UserStatus;
-import org.telegram.ui.Mihangram.SolarCalendar;
+import org.telegram.ui.Supergram.SolarCalendar;
 
 public class LocaleController
 {

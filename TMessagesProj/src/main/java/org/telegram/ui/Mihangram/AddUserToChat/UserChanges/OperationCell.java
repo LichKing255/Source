@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.AddUserToChat.UserChanges;
+package org.telegram.ui.Supergram.AddUserToChat.UserChanges;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -23,7 +23,7 @@ import org.telegram.ui.Components.AvatarDrawable;
 import org.telegram.ui.Components.BackupImageView;
 import org.telegram.ui.Components.CheckBox;
 import org.telegram.ui.Components.LayoutHelper;
-import org.telegram.ui.Mihangram.SolarCalendar;
+import org.telegram.ui.Supergram.SolarCalendar;
 
 public class OperationCell
   extends FrameLayout
@@ -314,7 +314,7 @@ public class OperationCell
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\AddUserToChat\UserChanges\OperationCell.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\AddUserToChat\UserChanges\OperationCell.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

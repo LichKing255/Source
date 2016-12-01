@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.UserChanges;
+package org.telegram.ui.Supergram.UserChanges;
 
 import android.content.ContentValues;
 import android.database.Cursor;
@@ -91,8 +91,8 @@ public class a
   {
     // Byte code:
     //   0: aload_0
-    //   1: getfield 23	org/telegram/ui/Mihangram/UserChanges/a:a	Lorg/telegram/ui/Mihangram/UserChanges/b;
-    //   4: invokevirtual 65	org/telegram/ui/Mihangram/UserChanges/b:getWritableDatabase	()Landroid/database/sqlite/SQLiteDatabase;
+    //   1: getfield 23	org/telegram/ui/Supergram/UserChanges/a:a	Lorg/telegram/ui/Supergram/UserChanges/b;
+    //   4: invokevirtual 65	org/telegram/ui/Supergram/UserChanges/b:getWritableDatabase	()Landroid/database/sqlite/SQLiteDatabase;
     //   7: astore 5
     //   9: aload 5
     //   11: invokevirtual 68	android/database/sqlite/SQLiteDatabase:beginTransaction	()V
@@ -103,27 +103,27 @@ public class a
     //   23: aload 6
     //   25: ldc -40
     //   27: aload_1
-    //   28: invokevirtual 222	org/telegram/ui/Mihangram/UserChanges/UpdateModel:getType	()I
+    //   28: invokevirtual 222	org/telegram/ui/Supergram/UserChanges/UpdateModel:getType	()I
     //   31: invokestatic 180	java/lang/Integer:valueOf	(I)Ljava/lang/Integer;
     //   34: invokevirtual 163	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/Integer;)V
     //   37: aload 6
     //   39: ldc -32
     //   41: aload_1
-    //   42: invokevirtual 227	org/telegram/ui/Mihangram/UserChanges/UpdateModel:getOldValue	()Ljava/lang/String;
+    //   42: invokevirtual 227	org/telegram/ui/Supergram/UserChanges/UpdateModel:getOldValue	()Ljava/lang/String;
     //   45: invokevirtual 114	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/String;)V
     //   48: aload 6
     //   50: ldc -27
     //   52: aload_1
-    //   53: invokevirtual 232	org/telegram/ui/Mihangram/UserChanges/UpdateModel:getNewValue	()Ljava/lang/String;
+    //   53: invokevirtual 232	org/telegram/ui/Supergram/UserChanges/UpdateModel:getNewValue	()Ljava/lang/String;
     //   56: invokevirtual 114	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/String;)V
     //   59: aload 6
     //   61: ldc -22
     //   63: aload_1
-    //   64: invokevirtual 237	org/telegram/ui/Mihangram/UserChanges/UpdateModel:getUserId	()I
+    //   64: invokevirtual 237	org/telegram/ui/Supergram/UserChanges/UpdateModel:getUserId	()I
     //   67: invokestatic 180	java/lang/Integer:valueOf	(I)Ljava/lang/Integer;
     //   70: invokevirtual 163	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/Integer;)V
     //   73: aload_1
-    //   74: invokevirtual 240	org/telegram/ui/Mihangram/UserChanges/UpdateModel:isNew	()Z
+    //   74: invokevirtual 240	org/telegram/ui/Supergram/UserChanges/UpdateModel:isNew	()Z
     //   77: ifeq +69 -> 146
     //   80: iconst_1
     //   81: istore_2
@@ -133,15 +133,15 @@ public class a
     //   87: invokestatic 180	java/lang/Integer:valueOf	(I)Ljava/lang/Integer;
     //   90: invokevirtual 163	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/Integer;)V
     //   93: aload_1
-    //   94: invokevirtual 245	org/telegram/ui/Mihangram/UserChanges/UpdateModel:getChangeDate	()Ljava/lang/String;
+    //   94: invokevirtual 245	org/telegram/ui/Supergram/UserChanges/UpdateModel:getChangeDate	()Ljava/lang/String;
     //   97: ifnull +14 -> 111
     //   100: aload 6
     //   102: ldc -9
     //   104: aload_1
-    //   105: invokevirtual 245	org/telegram/ui/Mihangram/UserChanges/UpdateModel:getChangeDate	()Ljava/lang/String;
+    //   105: invokevirtual 245	org/telegram/ui/Supergram/UserChanges/UpdateModel:getChangeDate	()Ljava/lang/String;
     //   108: invokevirtual 114	android/content/ContentValues:put	(Ljava/lang/String;Ljava/lang/String;)V
     //   111: aload_1
-    //   112: invokevirtual 248	org/telegram/ui/Mihangram/UserChanges/UpdateModel:getId	()Ljava/lang/Long;
+    //   112: invokevirtual 248	org/telegram/ui/Supergram/UserChanges/UpdateModel:getId	()Ljava/lang/Long;
     //   115: ifnonnull +36 -> 151
     //   118: aload 5
     //   120: ldc 47
@@ -170,7 +170,7 @@ public class a
     //   164: ldc -50
     //   166: invokevirtual 34	java/lang/StringBuilder:append	(Ljava/lang/String;)Ljava/lang/StringBuilder;
     //   169: aload_1
-    //   170: invokevirtual 248	org/telegram/ui/Mihangram/UserChanges/UpdateModel:getId	()Ljava/lang/Long;
+    //   170: invokevirtual 248	org/telegram/ui/Supergram/UserChanges/UpdateModel:getId	()Ljava/lang/Long;
     //   173: invokevirtual 199	java/lang/Long:longValue	()J
     //   176: invokevirtual 209	java/lang/StringBuilder:append	(J)Ljava/lang/StringBuilder;
     //   179: invokevirtual 41	java/lang/StringBuilder:toString	()Ljava/lang/String;
@@ -180,7 +180,7 @@ public class a
     //   187: aload 5
     //   189: invokevirtual 88	android/database/sqlite/SQLiteDatabase:setTransactionSuccessful	()V
     //   192: aload_1
-    //   193: invokevirtual 248	org/telegram/ui/Mihangram/UserChanges/UpdateModel:getId	()Ljava/lang/Long;
+    //   193: invokevirtual 248	org/telegram/ui/Supergram/UserChanges/UpdateModel:getId	()Ljava/lang/Long;
     //   196: astore_1
     //   197: aload 5
     //   199: invokevirtual 91	android/database/sqlite/SQLiteDatabase:endTransaction	()V
@@ -206,7 +206,7 @@ public class a
     //   151	202	205	finally
   }
   
-  public Long a(org.telegram.ui.Mihangram.UserChanges.mobo.a.a parama)
+  public Long a(org.telegram.ui.Supergram.UserChanges.mobo.a.a parama)
   {
     SQLiteDatabase localSQLiteDatabase = this.a.getWritableDatabase();
     localSQLiteDatabase.beginTransaction();
@@ -242,7 +242,7 @@ public class a
     }
   }
   
-  public Long a(org.telegram.ui.Mihangram.UserChanges.mobo.c.a parama)
+  public Long a(org.telegram.ui.Supergram.UserChanges.mobo.c.a parama)
   {
     SQLiteDatabase localSQLiteDatabase = this.a.getWritableDatabase();
     localSQLiteDatabase.beginTransaction();
@@ -260,7 +260,7 @@ public class a
     }
   }
   
-  public Long a(org.telegram.ui.Mihangram.UserChanges.mobo.e.a parama)
+  public Long a(org.telegram.ui.Supergram.UserChanges.mobo.e.a parama)
   {
     SQLiteDatabase localSQLiteDatabase = this.a.getWritableDatabase();
     localSQLiteDatabase.beginTransaction();
@@ -278,7 +278,7 @@ public class a
     }
   }
   
-  public Long a(org.telegram.ui.Mihangram.UserChanges.mobo.f.a parama)
+  public Long a(org.telegram.ui.Supergram.UserChanges.mobo.f.a parama)
   {
     SQLiteDatabase localSQLiteDatabase = this.a.getWritableDatabase();
     localSQLiteDatabase.beginTransaction();
@@ -364,7 +364,7 @@ public class a
         {
           localObject = c(paramString);
           if (paramBoolean) {
-            d().addAll(f(((org.telegram.ui.Mihangram.UserChanges.mobo.c.a)localObject).a()));
+            d().addAll(f(((org.telegram.ui.Supergram.UserChanges.mobo.c.a)localObject).a()));
           }
           localArrayList.add(localObject);
         }
@@ -398,8 +398,8 @@ public class a
     //   16: invokevirtual 41	java/lang/StringBuilder:toString	()Ljava/lang/String;
     //   19: astore 4
     //   21: aload_0
-    //   22: getfield 23	org/telegram/ui/Mihangram/UserChanges/a:a	Lorg/telegram/ui/Mihangram/UserChanges/b;
-    //   25: invokevirtual 45	org/telegram/ui/Mihangram/UserChanges/b:getReadableDatabase	()Landroid/database/sqlite/SQLiteDatabase;
+    //   22: getfield 23	org/telegram/ui/Supergram/UserChanges/a:a	Lorg/telegram/ui/Supergram/UserChanges/b;
+    //   25: invokevirtual 45	org/telegram/ui/Supergram/UserChanges/b:getReadableDatabase	()Landroid/database/sqlite/SQLiteDatabase;
     //   28: astore 5
     //   30: aload 5
     //   32: ldc -52
@@ -439,7 +439,7 @@ public class a
     //   105: athrow
     //   106: aload_0
     //   107: aload 4
-    //   109: invokevirtual 341	org/telegram/ui/Mihangram/UserChanges/a:b	(Landroid/database/Cursor;)Lorg/telegram/ui/Mihangram/UserChanges/AlarmResponse;
+    //   109: invokevirtual 341	org/telegram/ui/Supergram/UserChanges/a:b	(Landroid/database/Cursor;)Lorg/telegram/ui/Supergram/UserChanges/AlarmResponse;
     //   112: astore 5
     //   114: aload 4
     //   116: ifnull +10 -> 126
@@ -485,20 +485,20 @@ public class a
     return new UpdateModel(Long.valueOf(l), i, str1, str2, j, bool1, paramCursor.getString(paramCursor.getColumnIndex("change_date")));
   }
   
-  public org.telegram.ui.Mihangram.UserChanges.mobo.a.a a(Long paramLong, boolean paramBoolean)
+  public org.telegram.ui.Supergram.UserChanges.mobo.a.a a(Long paramLong, boolean paramBoolean)
   {
     paramLong = a("_id=" + paramLong, paramBoolean);
     if (paramLong.size() > 0) {
-      return (org.telegram.ui.Mihangram.UserChanges.mobo.a.a)paramLong.get(0);
+      return (org.telegram.ui.Supergram.UserChanges.mobo.a.a)paramLong.get(0);
     }
     return null;
   }
   
-  public org.telegram.ui.Mihangram.UserChanges.mobo.c.a a(Long paramLong)
+  public org.telegram.ui.Supergram.UserChanges.mobo.c.a a(Long paramLong)
   {
     paramLong = a("chatID=" + paramLong);
     if (paramLong.size() > 0) {
-      return (org.telegram.ui.Mihangram.UserChanges.mobo.c.a)paramLong.get(0);
+      return (org.telegram.ui.Supergram.UserChanges.mobo.c.a)paramLong.get(0);
     }
     return null;
   }
@@ -543,8 +543,8 @@ public class a
   {
     // Byte code:
     //   0: aload_0
-    //   1: getfield 23	org/telegram/ui/Mihangram/UserChanges/a:a	Lorg/telegram/ui/Mihangram/UserChanges/b;
-    //   4: invokevirtual 45	org/telegram/ui/Mihangram/UserChanges/b:getReadableDatabase	()Landroid/database/sqlite/SQLiteDatabase;
+    //   1: getfield 23	org/telegram/ui/Supergram/UserChanges/a:a	Lorg/telegram/ui/Supergram/UserChanges/b;
+    //   4: invokevirtual 45	org/telegram/ui/Supergram/UserChanges/b:getReadableDatabase	()Landroid/database/sqlite/SQLiteDatabase;
     //   7: astore 4
     //   9: new 298	java/util/ArrayList
     //   12: dup
@@ -581,7 +581,7 @@ public class a
     //   71: aload_3
     //   72: aload_0
     //   73: aload_1
-    //   74: invokevirtual 397	org/telegram/ui/Mihangram/UserChanges/a:d	(Landroid/database/Cursor;)Lorg/telegram/ui/Mihangram/UserChanges/mobo/e/a;
+    //   74: invokevirtual 397	org/telegram/ui/Supergram/UserChanges/a:d	(Landroid/database/Cursor;)Lorg/telegram/ui/Supergram/UserChanges/mobo/e/a;
     //   77: invokevirtual 398	java/util/ArrayList:add	(Ljava/lang/Object;)Z
     //   80: pop
     //   81: goto -36 -> 45
@@ -621,8 +621,8 @@ public class a
     //   17: invokevirtual 41	java/lang/StringBuilder:toString	()Ljava/lang/String;
     //   20: astore_3
     //   21: aload_0
-    //   22: getfield 23	org/telegram/ui/Mihangram/UserChanges/a:a	Lorg/telegram/ui/Mihangram/UserChanges/b;
-    //   25: invokevirtual 45	org/telegram/ui/Mihangram/UserChanges/b:getReadableDatabase	()Landroid/database/sqlite/SQLiteDatabase;
+    //   22: getfield 23	org/telegram/ui/Supergram/UserChanges/a:a	Lorg/telegram/ui/Supergram/UserChanges/b;
+    //   25: invokevirtual 45	org/telegram/ui/Supergram/UserChanges/b:getReadableDatabase	()Landroid/database/sqlite/SQLiteDatabase;
     //   28: astore 4
     //   30: aload 4
     //   32: ldc -52
@@ -662,7 +662,7 @@ public class a
     //   98: athrow
     //   99: aload_0
     //   100: aload_3
-    //   101: invokevirtual 341	org/telegram/ui/Mihangram/UserChanges/a:b	(Landroid/database/Cursor;)Lorg/telegram/ui/Mihangram/UserChanges/AlarmResponse;
+    //   101: invokevirtual 341	org/telegram/ui/Supergram/UserChanges/a:b	(Landroid/database/Cursor;)Lorg/telegram/ui/Supergram/UserChanges/AlarmResponse;
     //   104: astore 4
     //   106: aload_3
     //   107: ifnull +9 -> 116
@@ -795,8 +795,8 @@ public class a
   {
     // Byte code:
     //   0: aload_0
-    //   1: getfield 23	org/telegram/ui/Mihangram/UserChanges/a:a	Lorg/telegram/ui/Mihangram/UserChanges/b;
-    //   4: invokevirtual 45	org/telegram/ui/Mihangram/UserChanges/b:getReadableDatabase	()Landroid/database/sqlite/SQLiteDatabase;
+    //   1: getfield 23	org/telegram/ui/Supergram/UserChanges/a:a	Lorg/telegram/ui/Supergram/UserChanges/b;
+    //   4: invokevirtual 45	org/telegram/ui/Supergram/UserChanges/b:getReadableDatabase	()Landroid/database/sqlite/SQLiteDatabase;
     //   7: astore 4
     //   9: new 298	java/util/ArrayList
     //   12: dup
@@ -833,7 +833,7 @@ public class a
     //   72: aload_3
     //   73: aload_0
     //   74: aload_1
-    //   75: invokevirtual 421	org/telegram/ui/Mihangram/UserChanges/a:f	(Landroid/database/Cursor;)Lorg/telegram/ui/Mihangram/UserChanges/mobo/f/a;
+    //   75: invokevirtual 421	org/telegram/ui/Supergram/UserChanges/a:f	(Landroid/database/Cursor;)Lorg/telegram/ui/Supergram/UserChanges/mobo/f/a;
     //   78: invokevirtual 398	java/util/ArrayList:add	(Ljava/lang/Object;)Z
     //   81: pop
     //   82: goto -36 -> 46
@@ -859,16 +859,16 @@ public class a
     //   72	82	85	java/lang/Throwable
   }
   
-  public org.telegram.ui.Mihangram.UserChanges.mobo.c.a c(Cursor paramCursor)
+  public org.telegram.ui.Supergram.UserChanges.mobo.c.a c(Cursor paramCursor)
   {
-    return new org.telegram.ui.Mihangram.UserChanges.mobo.c.a(Long.valueOf(paramCursor.getLong(paramCursor.getColumnIndex("_id"))), Long.valueOf(paramCursor.getLong(paramCursor.getColumnIndex("chatID"))));
+    return new org.telegram.ui.Supergram.UserChanges.mobo.c.a(Long.valueOf(paramCursor.getLong(paramCursor.getColumnIndex("_id"))), Long.valueOf(paramCursor.getLong(paramCursor.getColumnIndex("chatID"))));
   }
   
-  public org.telegram.ui.Mihangram.UserChanges.mobo.e.a c(Long paramLong)
+  public org.telegram.ui.Supergram.UserChanges.mobo.e.a c(Long paramLong)
   {
     paramLong = b("dialogID=" + paramLong);
     if (paramLong.size() > 0) {
-      return (org.telegram.ui.Mihangram.UserChanges.mobo.e.a)paramLong.get(0);
+      return (org.telegram.ui.Supergram.UserChanges.mobo.e.a)paramLong.get(0);
     }
     return null;
   }
@@ -878,9 +878,9 @@ public class a
     return a((String)null);
   }
   
-  public org.telegram.ui.Mihangram.UserChanges.mobo.e.a d(Cursor paramCursor)
+  public org.telegram.ui.Supergram.UserChanges.mobo.e.a d(Cursor paramCursor)
   {
-    return new org.telegram.ui.Mihangram.UserChanges.mobo.e.a(Long.valueOf(paramCursor.getLong(paramCursor.getColumnIndex("_id"))), Long.valueOf(paramCursor.getLong(paramCursor.getColumnIndex("dialogID"))));
+    return new org.telegram.ui.Supergram.UserChanges.mobo.e.a(Long.valueOf(paramCursor.getLong(paramCursor.getColumnIndex("_id"))), Long.valueOf(paramCursor.getLong(paramCursor.getColumnIndex("dialogID"))));
   }
   
   public void d(Long paramLong)
@@ -905,9 +905,9 @@ public class a
     return b((String)null);
   }
   
-  public org.telegram.ui.Mihangram.UserChanges.mobo.a.a e(Cursor paramCursor)
+  public org.telegram.ui.Supergram.UserChanges.mobo.a.a e(Cursor paramCursor)
   {
-    return new org.telegram.ui.Mihangram.UserChanges.mobo.a.a(Long.valueOf(paramCursor.getLong(paramCursor.getColumnIndex("_id"))), paramCursor.getString(paramCursor.getColumnIndex("name")), Integer.valueOf(paramCursor.getInt(paramCursor.getColumnIndex("priority"))));
+    return new org.telegram.ui.Supergram.UserChanges.mobo.a.a(Long.valueOf(paramCursor.getLong(paramCursor.getColumnIndex("_id"))), paramCursor.getString(paramCursor.getColumnIndex("name")), Integer.valueOf(paramCursor.getInt(paramCursor.getColumnIndex("priority"))));
   }
   
   public void e(Long paramLong)
@@ -960,9 +960,9 @@ public class a
     }
   }
   
-  public org.telegram.ui.Mihangram.UserChanges.mobo.f.a f(Cursor paramCursor)
+  public org.telegram.ui.Supergram.UserChanges.mobo.f.a f(Cursor paramCursor)
   {
-    return new org.telegram.ui.Mihangram.UserChanges.mobo.f.a(Long.valueOf(paramCursor.getLong(paramCursor.getColumnIndex("_id"))), Long.valueOf(paramCursor.getLong(paramCursor.getColumnIndex("doc_id"))), Integer.valueOf(paramCursor.getInt(paramCursor.getColumnIndex("priority"))));
+    return new org.telegram.ui.Supergram.UserChanges.mobo.f.a(Long.valueOf(paramCursor.getLong(paramCursor.getColumnIndex("_id"))), Long.valueOf(paramCursor.getLong(paramCursor.getColumnIndex("doc_id"))), Integer.valueOf(paramCursor.getInt(paramCursor.getColumnIndex("priority"))));
   }
   
   public void f()
@@ -1008,8 +1008,8 @@ public class a
   {
     // Byte code:
     //   0: aload_0
-    //   1: getfield 23	org/telegram/ui/Mihangram/UserChanges/a:a	Lorg/telegram/ui/Mihangram/UserChanges/b;
-    //   4: invokevirtual 45	org/telegram/ui/Mihangram/UserChanges/b:getReadableDatabase	()Landroid/database/sqlite/SQLiteDatabase;
+    //   1: getfield 23	org/telegram/ui/Supergram/UserChanges/a:a	Lorg/telegram/ui/Supergram/UserChanges/b;
+    //   4: invokevirtual 45	org/telegram/ui/Supergram/UserChanges/b:getReadableDatabase	()Landroid/database/sqlite/SQLiteDatabase;
     //   7: astore_2
     //   8: aload_2
     //   9: ldc_w 265
@@ -1078,8 +1078,8 @@ public class a
     //   17: invokevirtual 41	java/lang/StringBuilder:toString	()Ljava/lang/String;
     //   20: astore_1
     //   21: aload_0
-    //   22: getfield 23	org/telegram/ui/Mihangram/UserChanges/a:a	Lorg/telegram/ui/Mihangram/UserChanges/b;
-    //   25: invokevirtual 45	org/telegram/ui/Mihangram/UserChanges/b:getReadableDatabase	()Landroid/database/sqlite/SQLiteDatabase;
+    //   22: getfield 23	org/telegram/ui/Supergram/UserChanges/a:a	Lorg/telegram/ui/Supergram/UserChanges/b;
+    //   25: invokevirtual 45	org/telegram/ui/Supergram/UserChanges/b:getReadableDatabase	()Landroid/database/sqlite/SQLiteDatabase;
     //   28: astore 5
     //   30: aload 5
     //   32: ldc 81
@@ -1217,7 +1217,7 @@ public class a
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\UserChanges\a.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\UserChanges\a.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

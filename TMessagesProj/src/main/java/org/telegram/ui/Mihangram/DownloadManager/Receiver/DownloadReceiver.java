@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.DownloadManager.Receiver;
+package org.telegram.ui.Supergram.DownloadManager.Receiver;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -19,9 +19,9 @@ import org.telegram.tgnet.TLRPC.DocumentAttribute;
 import org.telegram.tgnet.TLRPC.PhotoSize;
 import org.telegram.tgnet.TLRPC.TL_document;
 import org.telegram.tgnet.TLRPC.TL_documentAttributeFilename;
-import org.telegram.ui.Mihangram.DownloadManager.Download;
-import org.telegram.ui.Mihangram.DownloadManager.SQLite.ElementDownload;
-import org.telegram.ui.Mihangram.DownloadManager.SQLite.SQLDownload;
+import org.telegram.ui.Supergram.DownloadManager.Download;
+import org.telegram.ui.Supergram.DownloadManager.SQLite.ElementDownload;
+import org.telegram.ui.Supergram.DownloadManager.SQLite.SQLDownload;
 
 public class DownloadReceiver
   extends WakefulBroadcastReceiver
@@ -157,7 +157,7 @@ public class DownloadReceiver
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\DownloadManager\Receiver\DownloadReceiver.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\DownloadManager\Receiver\DownloadReceiver.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

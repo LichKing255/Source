@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.Theming.ColorPicker;
+package org.telegram.ui.Supergram.Theming.ColorPicker;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -171,7 +171,7 @@ public class ColorSelectorView
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\Theming\ColorPicker\ColorSelectorView.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\Theming\ColorPicker\ColorSelectorView.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

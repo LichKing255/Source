@@ -1,4 +1,4 @@
-package org.telegram.ui.Mihangram.SpecialContacts;
+package org.telegram.ui.Supergram.SpecialContacts;
 
 import android.app.AlertDialog.Builder;
 import android.content.Context;
@@ -55,7 +55,7 @@ import org.telegram.ui.Cells.UserCell;
 import org.telegram.ui.Components.ChipSpan;
 import org.telegram.ui.Components.LayoutHelper;
 import org.telegram.ui.Components.LetterSectionsListView;
-import org.telegram.ui.Mihangram.Theming.MihanTheme;
+import org.telegram.ui.Supergram.Theming.MihanTheme;
 
 public class SpecialSelectActivity
   extends BaseFragment
@@ -646,7 +646,7 @@ public class SpecialSelectActivity
 }
 
 
-/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Mihangram\SpecialContacts\SpecialSelectActivity.class
+/* Location:              C:\Users\Armandl\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\Supergram\SpecialContacts\SpecialSelectActivity.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       0.7.1
  */

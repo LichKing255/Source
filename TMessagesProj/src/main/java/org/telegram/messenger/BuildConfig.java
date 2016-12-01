@@ -2,7 +2,7 @@ package org.telegram.messenger;
 
 public final class BuildConfig
 {
-  public static final String APPLICATION_ID = "com.mihan.mihangram";
+  public static final String APPLICATION_ID = "com.baranak.tsupergram";
   public static final String BUILD_TYPE = "release";
   public static final boolean DEBUG = false;
   public static final String FLAVOR = "";
