@@ -564,7 +564,7 @@ public class AudioPlayerActivity
 }
 
 
-/* //Location:              C:\Users\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\AudioPlayerActivity.class
- * //Java compiler version: 6 (50.0)
- * //JD-Core Version:       0.7.1
+/* Location:              C:\Users\Downloads\Compressed\dex2jar-2.0\classes-dex2jar.jar!\org\telegram\ui\AudioPlayerActivity.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       0.7.1
  */
